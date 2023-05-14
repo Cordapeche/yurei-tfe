@@ -9,7 +9,7 @@ export default function About() {
         Link test
       </Link> */}
       <Head>
-        <title> YUREI | About </title>
+        <title> YUREI | ABOUT </title>
         <meta name="description" content="A detailed description of Yurei, including its mission, vision, and the story behind its establishment. Highlight the label's commitment to promoting underground artists and fostering a community around phonk music." />
         <meta name='keywords' content='grid, display, yurei, album cover, releases' />
       </Head>

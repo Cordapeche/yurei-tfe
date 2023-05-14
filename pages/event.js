@@ -15,7 +15,7 @@ export const getStaticProps = async () => {
 export default ({ eventlist }) => (
   <>
     <Head>
-      <title> YUREI | Event </title>
+      <title> YUREI | EVENT </title>
       <meta name="description" content="grid display of the latest and notable releases from Yurei, featuring album covers, release titles, and artist names. Each release should link to a dedicated page providing more information about the album, including tracklist, streaming platforms, and purchase options." />
       <meta name='keywords' content='grid, display, yurei, album cover, releases' />
     </Head>

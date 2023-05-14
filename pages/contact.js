@@ -9,7 +9,7 @@ export default function Contact() {
         Link test
       </Link> */}
       <Head>
-        <title> YUREI | Contact </title>
+        <title> YUREI | CONTACT </title>
         <meta name="description" content="Contact information for Yurei,  including a contact form or email address for general inquiries, artist submissions, and collaboration opportunities. Optionally, include links to social media profiles for easy access to updates and engagement." />
         <meta name='keywords' content='grid, display, yurei, album cover, releases' />
       </Head>

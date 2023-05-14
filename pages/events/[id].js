@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import LazyImage from '../component/LazyImage';
 import { events } from '../../model/events.js';
 
 
