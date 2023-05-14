@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import LazyImage from '../component/LazyImage';
 import { artists } from '../model/artists.js';
+import Image from 'next/image';
 
 
 export const getStaticProps = async () => {
@@ -34,7 +34,7 @@ export default ({ artistlist }) => (
                   </div>
               </div>
             </div>
-            <LazyImage
+            <Image
               alt=""
               src={artist.Picture}
               layout="fill"

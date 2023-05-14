@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import LazyImage from '../component/LazyImage';
 import { events } from '../model/events.js';
+import Image from 'next/image';
 
 
 export const getStaticProps = async () => {
@@ -34,7 +34,7 @@ export default ({ eventlist }) => (
                   <h2 className='text-xs lg:text-2xl lg:p-2 xl:text-4xl xl:p-2 font-bold text-center uppercase'>{even.When}</h2>
                 </div>
               </div>
-              <LazyImage
+              <Image
                 alt=""
                 src={even.Picture}
                 layout="fill"

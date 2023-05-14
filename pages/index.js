@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { releases } from '../model/releases.js';
-import LazyImage from '../component/LazyImage';
+import Image from 'next/image';
 
 
 
@@ -44,7 +44,7 @@ export default ({ released }) => (
                 <p className='opacity-80 text-sm font-poppins font-medium'>{release.Artist}</p>
               </div>
             </div>
-            <LazyImage
+            <Image
               alt=''
               src={release.Picture}
               layout='fill'
