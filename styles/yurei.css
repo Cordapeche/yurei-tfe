@@ -10,133 +10,7 @@ body {
     height: 50%!important;
   }
 
-.wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .wrapper h1.glitch {
-    color: white;
-    position: relative;
-  }
 
- 
-  .wrapper h1.glitch::before, .wrapper h1.glitch::after {
-    color: rgb(255, 255, 255);
-    content: "ゆうれい";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: black;
-    overflow: hidden;
-  }
-  .wrapper h1.glitch::before {
-    left: 0px;
-    text-shadow: -2px 0 rgb(0, 255, 76);
-    animation-name: glitch-animation-1;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: reverse-alternate; }
-  .wrapper h1.glitch::after {
-    left: 3px;
-    text-shadow: 2px 0 rgb(76, 0, 255);
-    animation-name: glitch-animation-2;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: reverse-alternate; }
-
-@keyframes glitch-animation-1 {
-  0% {
-    clip: rect(91px, 350px, 32px, 30px); }
-  5% {
-    clip: rect(100px, 350px, 92px, 30px); }
-  10% {
-    clip: rect(62px, 350px, 122px, 30px); }
-  15% {
-    clip: rect(142px, 350px, 137px, 30px); }
-  20% {
-    clip: rect(21px, 350px, 122px, 30px); }
-  25% {
-    clip: rect(135px, 350px, 51px, 30px); }
-  30% {
-    clip: rect(120px, 350px, 116px, 30px); }
-  35% {
-    clip: rect(80px, 350px, 30px, 30px); }
-  40% {
-    clip: rect(42px, 350px, 137px, 30px); }
-  45% {
-    clip: rect(19px, 350px, 44px, 30px); }
-  50% {
-    clip: rect(95px, 350px, 134px, 30px); }
-  55% {
-    clip: rect(63px, 350px, 61px, 30px); }
-  60% {
-    clip: rect(38px, 350px, 12px, 30px); }
-  65% {
-    clip: rect(12px, 350px, 52px, 30px); }
-  70% {
-    clip: rect(125px, 350px, 100px, 30px); }
-  75% {
-    clip: rect(12px, 350px, 48px, 30px); }
-  80% {
-    clip: rect(77px, 350px, 42px, 30px); }
-  85% {
-    clip: rect(129px, 350px, 149px, 30px); }
-  90% {
-    clip: rect(112px, 350px, 6px, 30px); }
-  95% {
-    clip: rect(53px, 350px, 83px, 30px); }
-  100% {
-    clip: rect(9px, 350px, 103px, 30px); } }
-
-@keyframes glitch-animation-2 {
-  0% {
-    clip: rect(140px, 350px, 81px, 30px); }
-  5% {
-    clip: rect(1px, 350px, 89px, 30px); }
-  10% {
-    clip: rect(42px, 350px, 141px, 30px); }
-  15% {
-    clip: rect(90px, 350px, 5px, 30px); }
-  20% {
-    clip: rect(20px, 350px, 25px, 30px); }
-  25% {
-    clip: rect(63px, 350px, 130px, 30px); }
-  30% {
-    clip: rect(150px, 350px, 112px, 30px); }
-  35% {
-    clip: rect(116px, 350px, 78px, 30px); }
-  40% {
-    clip: rect(146px, 350px, 137px, 30px); }
-  45% {
-    clip: rect(99px, 350px, 95px, 30px); }
-  50% {
-    clip: rect(47px, 350px, 57px, 30px); }
-  55% {
-    clip: rect(119px, 350px, 127px, 30px); }
-  60% {
-    clip: rect(77px, 350px, 11px, 30px); }
-  65% {
-    clip: rect(137px, 350px, 27px, 30px); }
-  70% {
-    clip: rect(86px, 350px, 51px, 30px); }
-  75% {
-    clip: rect(62px, 350px, 107px, 30px); }
-  80% {
-    clip: rect(127px, 350px, 130px, 30px); }
-  85% {
-    clip: rect(29px, 350px, 109px, 30px); }
-  90% {
-    clip: rect(6px, 350px, 83px, 30px); }
-  95% {
-    clip: rect(55px, 350px, 75px, 30px); }
-  100% {
-    clip: rect(84px, 350px, 48px, 30px); } 
-  
-}
 
 /* GLITCHED TEXT START */
 
@@ -152,19 +26,20 @@ body {
   top: 2px;
   clip: rect(0, 900px, 0, 0);
   color: white;
-  animation: glitch 3s infinite alternate-reverse;
-  animation-delay: 4s;
+  animation: glitch 5s infinite forwards;
+  animation-delay: 0.5s;
 }
 .glitched:last-child:before {
-  content: "ЮРЕЙ";
+  content: "幽霊";
   position: absolute;
   left: -2px;
   top: -2px;
   clip: rect(0, 900px, 0, 0);
   background-color: black;
   color: white;
-  animation: glitch 3s infinite alternate-reverse;
-  animation-delay: 4s;
+  animation: glitch 5s infinite forwards;
+  animation-delay: 0.5s;
+  
 }
 
 @keyframes fadeWhite {
@@ -241,23 +116,6 @@ body {
 /* GLITCHED TEXT END */
 
 
-/* Spotify Iframe STARTS */
-
-.gMx7ZQAGhBSydDebRjyI {
-  border-radius: 0!important;
-  isolation: isolate;
-  overflow: hidden;
-  overflow: clip;
-  position: relative;
-}
-
-.embed-widget-container:not(.has-track-list) .dECpSYmWqPAhq6xqf2t3 {
-  border-radius: 0!important;
-}
-
-/* Spotify Iframe END */
-
-
 
 /* MOUSE CHNAGER */
 .cursor {
@@ -314,7 +172,7 @@ body {
   left: 0;
 }
 .line:nth-child(1) {
-  animation: clip 3000ms -300ms linear infinite, glitch1 500ms -544ms linear infinite;
+  animation: clip 3000ms -300ms linear 2, glitch1 500ms -544ms linear 2;
 }
 @keyframes glitch1 {
   0% {
@@ -326,11 +184,11 @@ body {
  }
   85% {
     transform: translateX(5px);
-    color: #00ff4c;
+    color: #fffb00;
  }
   90% {
     transform: translateX(1px);
-    color: #4400ff;
+    color: #c300ff;
  }
   95% {
     transform: translateX(-2px);
@@ -353,11 +211,11 @@ body {
  }
   85% {
     transform: translateX(-1px);
-    color: #00ff4c;
+    color: #ff0000;
  }
   90% {
     transform: translateX(-3px);
-    color: #4400ff;
+    color: #0026ff;
  }
   95% {
     transform: translateX(0px);
@@ -407,11 +265,11 @@ body {
  }
   85% {
     transform: translateX(-4px);
-    color: #00ff4c;
+    color: #fffb00;
  }
   90% {
     transform: translateX(-3px);
-    color: #4400ff;
+    color: #ff00ff;
  }
   95% {
     transform: translateX(4px);
@@ -434,11 +292,11 @@ body {
  }
   85% {
     transform: translateX(4px);
-    color: #00ff4c;
+    color: #ff0000;
  }
   90% {
     transform: translateX(-1px);
-    color: #4400ff;
+    color: #0400ff;
  }
   95% {
     transform: translateX(5px);

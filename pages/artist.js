@@ -16,11 +16,10 @@ export default ({ artistlist }) => (
   <>
     <Head>
       <title> YUREI | artist </title>
-      <meta name="keywords" content="nextjs" />
-      <script src='../js/script.js' refer></script>
+      <meta name="description" content="A grid layout showcasing the label's featured artists, each with a profile picture, artist name, and a brief introduction or tagline highlighting their style." />
+      <meta name='keywords' content='grid, display, yurei, album cover, releases' />
     </Head>
-    <div class="cursor"></div>
-    <div class="cursor2"></div>
+
     <div className='grid grid-cols-2 md:grid-cols-3 grid-flow-row-danse w-full overflow-hidden h-full'>
 
       {artists.map(artist => (
@@ -28,9 +27,11 @@ export default ({ artistlist }) => (
         <Link href={'/artist/' + artist.id} key={artist.id}>
 
           <div class="overflow-hidden  aspect-video cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-6">
-            <div class=" z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
+            <div class=" z-50 opacity-100 xl:opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
               <div class="bg-black bg-opacity-50 h-full w-full flex justify-center items-center flex-col text-white">
-                <h1 className='text-2xl xl:text-5xl uppercase flex font-noto font-black '>{artist.Name}</h1>
+                <div className='text-2xl xl:text-5xl uppercase flex  font-noto font-black'>
+                  <h1 className=' max-w-xs text-center'>{artist.Name}</h1>
+                  </div>
               </div>
             </div>
             <Image
@@ -43,9 +44,6 @@ export default ({ artistlist }) => (
           </div>
         </Link>
       ))}
-
-
-
     </div>
   </>
 )
