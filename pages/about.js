@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import LazyImage from '../component/LazyImage';
 
 export default function About() {
   return (
