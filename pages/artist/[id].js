@@ -3,23 +3,26 @@ import Link from 'next/link';
 import { releases } from '../../model/releases.js';
 import { artists } from '../../model/artists.js';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 
-export const getStaticProps = async ({ params }) => {
+
+
+export async function getStaticPaths() {
+    const paths = artists.map((artist) => ({
+        params: { id: artist.id.toString() },
+    }));
+
+    return { paths, fallback: false };
+};
+
+export async function getStaticProps({ params }) {
     const artistlist = artists.filter((p) => p.id.toString() === params.id);
     return {
         props: {
             artist: artistlist[0],
         },
     };
-};
-
-export const getStaticPaths = async () => {
-    const paths = artists.map((artist) => ({
-        params: { id: artist.id.toString() },
-    }));
-
-    return { paths, fallback: false };
 };
 
 
@@ -112,29 +115,30 @@ export default ({ artist }) => (
         <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
             <div className=' col-span-4 '>
                 <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
-                    {releases.filter((ArtistId) => ArtistId.id === Number(artist)).map((release) => (
 
+                    {releases.filter((item) => item.ArtistId === artist.id).map(release => (
 
+                        <Link href={'/songs/' + release.id} key={release.id}>
 
-
-                        <Link href={'/songs/' + release.Artist} key={release.Artist}>
                             <div className="overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-7">
-                                {/* <div className=" z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
-                                    <div className="bg-black bg-opacity-50 h-full w-full flex justify-center items-center flex-col text-white">
-                                        <h1 className='text-2xl xl:text-5xl font-bold flex '>
-                                            <div className='font-noto uppercase'> {release.Title} </div>
+                                <div className="z-40 opacity-100 xl:opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
+                                    <div className="bg-black bg-opacity-50 h-full w-full break-words text-center flex justify-center items-center flex-col text-white">
+                                        <h1 className='text-2xl xl:text-5xl font-bold flex'>
+                                            <div className='glitchedx uppercase font-noto font-bold '> {release.Title} </div>
                                         </h1>
-                                        <p className='opacity-80 text-sm font-poppins '>{release.Artist}</p>
+                                        <p className='opacity-80 text-sm font-poppins font-medium'>{release.Artist}</p>
                                     </div>
-                                </div> */}
+                                </div>
                                 <Image
-                                    alt=""
+                                    alt=''
                                     src={release.Picture}
-                                    layout="fill"
-                                    objectFit="cover"
-                                    class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
+                                    layout='fill'
+                                    objectFit='cover'
+                                    loading='lazy'
+                                    class='object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out'
                                 />
                             </div>
+
                         </Link>
 
                     ))}

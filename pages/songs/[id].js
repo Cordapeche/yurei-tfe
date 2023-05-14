@@ -62,7 +62,7 @@ export default ({ song }) => (
                     <div className='text-left pt-10 font-poppins font-normal'>
                         <h2 className='text-3xl font-semibold uppercase font-noto'>Track the song</h2>
 
-                        <a target="_blank" href={song.spotifyURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
+                        <a target="_blank" href={song.spotifyURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10 transition duration-300 ease-in-out'>
                             <h3 className='text-xl font-normal mr-5 w-fit'>{song.Spotify}</h3>
                             <div className='w-full'>
                                 <div className='h-1 bg-white w-auto rounded-lg'></div>
@@ -115,7 +115,7 @@ export default ({ song }) => (
                     {releases.slice(7).map(release => (
                         <Link href={'/songs/' + release.id} key={release.id}>
                             <div className="overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-7">
-                                <div className=" z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
+                                <div className="z-40 opacity-100 xl:opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
                                     <div className="bg-black bg-opacity-50 h-full w-full flex justify-center items-center flex-col text-white">
                                         <h1 className='text-2xl xl:text-5xl font-bold flex '>
                                             <div className='font-noto uppercase'> {release.Title} </div>
