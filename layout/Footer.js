@@ -18,21 +18,37 @@ const Footer = () => {
                 <div className='flex flex-col sm:flex-col lg:flex-row items-center justify-between'>
                     <div className='flex flex-col lg:items-start items-center pb-10 lg:pb-0'>
                         <div className=' grid gap-x-4 grid-cols-5 mb-3'>
-                            <button>
-                                <RiFacebookCircleLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
-                            </button>
-                            <button>
+
+                            <a target="_blank" aria-label="Facebook" href='https://www.facebook.com/yxreiprxd'>
+                                <button aria-label="Facebook">
+                                    <RiFacebookCircleLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
+                                </button>
+                            </a>
+
+                            <a target="_blank" aria-label="Tiktok" href='https://www.tiktok.com/yxreiprxd'>
+                            <button aria-label="Tiktok">
                                 <BsTiktok className='bg-white hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
                             </button>
-                            <button>
+                            </a>
+
+                            <a target="_blank" aria-label="Instagram"  href='https://www.instagram.com/yxreiprxd'>
+                            <button aria-label="Instagram">
                                 <BsInstagram className='bg-white hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
-                            </button>
-                            <button>
+                            </button>                            
+                            </a>
+
+                            <a target="_blank" aria-label="Youtube" href='https://www.youtube.com/yxreiprxd'>
+                            <button aria-label="Youtube">
                                 <RiYoutubeLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
                             </button>
-                            <button>
+                            </a>
+
+                            <a target="_blank" aria-label="Twitter" href='https://www.twitter.com/yxreiprxd'>
+                            <button aria-label="Twitter">
                                 <RiTwitterLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
                             </button>
+                            </a>
+
                         </div>
 
                         <div className='text-sm font-poppins font-normal'>
@@ -62,13 +78,13 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className='flex flex-col gap-y-1 justify-center lg:justify-start font-poppins font-normal'>
+                    <div className='flex flex-col gap-y-1 justify-center lg:justify-start font-poppins font-normal w-full lg:w-auto'>
                         <label>Subscribe to our newsletter</label>
-                        <form className='lg:items-end flex flex-col lg:flex-row '>
+                        <form className='lg:items-end flex flex-col lg:flex-row'>
                             <input type='text' name='email' placeholder='Email' className='bg-black border-solid border-2 p-2  border-white lg:mr-3 lg:mb-0' />
                             <button type='submit' value='submit' className='text-black bg-white hover:bg-gray-300        border-solid border-2 p-2 mt-2'>Submit</button>
                         </form>
-                        
+
                     </div>
                 </div>
             </div>

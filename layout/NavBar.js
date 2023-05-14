@@ -5,16 +5,25 @@ import { CgClose } from 'react-icons/cg';
 import { useRouter } from 'next/router';
 import { BsInstagram, BsTiktok } from 'react-icons/bs';
 import { RiFacebookCircleLine, RiYoutubeLine, RiTwitterLine, } from 'react-icons/ri';
+import React, { useEffect } from "react";
 
 const NavBar = () => {
-    const [navbar, setNavbar] = useState();
+    const [isHidden, setIsHidden] = useState(false)
 
     const router = useRouter();
 
+    const [showElement, setShowElement] = useState(true);
+    useEffect(() => {
+        setTimeout(function () {
+            setShowElement(false);
+        }, 5000);
+    }, []);
+
+
     return (
         <>
-            <nav className='bg-black text-white w-full py-5 px-4 md:px-8'>
-                <div className='justify-between md:items-center md:flex'>
+            <nav className='bg-black text-white w-full py-5 px-4 md:px-8 rela relative '>
+                <div className='justify-between md:items-center md:flex sticky top-0'>
                     <div className='flex items-center justify-between py-3 md:block'>
                         <div href='#' className='flex items-center'>
                             <span className='text-3xl font-bold font-heading self-center whitespace-nowrap dark:text-white uppercase'>
@@ -23,33 +32,42 @@ const NavBar = () => {
                                         <div className='line'>
                                             <Link href={'/'}>YŪREI 劣化</Link>
                                         </div>
-                                        <div className='line'>
-                                            <Link href={'/'}>YŪREI 劣化</Link>
-                                        </div>
-                                        <div className='line'>
-                                            <Link href={'/'}>YŪREI 劣化</Link>
-                                        </div>
-                                        <div className='line'>
-                                            <Link href={'/'}>YŪREI 劣化</Link>
-                                        </div>
-                                        <div className='line'>
-                                            <Link href={'/'}>YŪREI 劣化</Link>
-                                        </div>
-                                        <div className='line'>
-                                            <Link href={'/'}>YŪREI 劣化</Link>
-                                        </div>
-                                        <div className='line'>
-                                            <Link href={'/'}>YŪREI 劣化</Link>
-                                        </div>
-                                        <div className='line'>
-                                            <Link href={'/'}>YŪREI 劣化</Link>
-                                        </div>
-                                        <div className='line'>
-                                            <Link href={'/'}>YŪREI 劣化</Link>
-                                        </div>
-                                        <div className='line'>
-                                            <Link href={'/'}>YŪREI 劣化</Link>
-                                        </div>
+                                        {showElement ? (
+                                            <div
+                                                style={{
+                                                    opacity: showElement ? 1 : 0
+                                                }}
+                                            >
+                                                <div className='line absolute'>
+                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                </div>
+                                                <div className='line absolute'>
+                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                </div>
+                                                <div className='line absolute'>
+                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                </div>
+                                                <div className='line absolute'>
+                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                </div>
+                                                <div className='line absolute'>
+                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                </div>
+                                                <div className='line absolute'>
+                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                </div>
+                                                <div className='line absolute'>
+                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                </div>
+                                                <div className='line absolute'>
+                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                </div>
+                                                <div className='line absolute'>
+                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                </div>
+                                            </div>) : (
+                                            <div></div>
+                                        )}{" "}
                                     </h1>
                                 </div>
                             </span>
@@ -57,9 +75,9 @@ const NavBar = () => {
                         <div className='md:hidden'>
                             <button
                                 className='p-2 text-gray-700 rounded-md focus:border-gray-400 focus:border'
-                                onClick={() => setNavbar(!navbar)}
+                                onClick={() => setIsHidden(!isHidden)}
                             >
-                                {navbar ? (
+                                {isHidden ? (
                                     <div>
                                         <CgClose className='text-white' size={50} />
                                     </div>
@@ -71,26 +89,26 @@ const NavBar = () => {
                             </button>
                         </div>
                     </div>
-                    <div>
+                    <div className='z-50 relative'>
                         <div
-                            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? '' : 'hidden'}`}>
-                            <ul className='h-screen md:h-auto items-center justify-center md:flex md:space-x-8 md:mt-0 md:text-sm md:font-medium sm:pt-0 font-poppins uppercase'>
+                            className={`flex-1 justify-self-center pb-3 md:block md:pb-0 md:mt-0 ${isHidden ? '' : 'hidden'}`}>
+                            <ul className='items-center justify-center md:flex md:space-x-8 md:mt-0 md:text-sm md:font-medium sm:pt-0 font-poppins uppercase'>
                                 <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm'>
 
-                                    <Link className={router.pathname == "/" ? "active" : ""} href={'/'} onClick={() => setNavbar(!navbar)}>releases</Link>
+                                    <a className={router.pathname == "/" ? "glitch font-bold text-4xl md:text-lg" : ""} href={'/'} >releases</a>
                                 </li>
 
                                 <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm'>
-                                    <Link href={'/artist'} onClick={() => setNavbar(!navbar)}>artist</Link>
+                                    <a className={router.pathname == "/artist" ? "glitch font-bold text-4xl md:text-lg" : ""} href={'/artist'} >artists</a>
                                 </li>
                                 <li className=' text-center pt-8 md:pt-0 text-3xl md:text-sm'>
-                                    <Link href={'/event'} onClick={() => setNavbar(!navbar)}>event</Link>
+                                    <a className={router.pathname == "/event" ? "glitch font-bold text-4xl md:text-lg" : ""} href={'/event'} >event</a>
                                 </li>
                                 <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm'>
-                                    <Link href={'/about'} onClick={() => setNavbar(!navbar)}>About</Link>
+                                    <a className={router.pathname == "/about" ? "glitch font-bold text-4xl md:text-lg" : ""} href={'/about'} >About</a>
                                 </li>
                                 <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm'>
-                                    <Link href={'/contact'} onClick={() => setNavbar(!navbar)}>contact</Link>
+                                    <a className={router.pathname == "/contact" ? "glitch font-bold text-4xl md:text-lg" : ""} href={'/contact'} >contact</a>
                                 </li>
 
                                 <li className='text-center pt-20 md:pt-0 md:hidden'>
@@ -109,21 +127,35 @@ const NavBar = () => {
 
                                         <p className='font-poppins font-normal'>Keep an eye on us</p>
                                         <div className='grid gap-x-4 grid-cols-5 mb-3 pt-2'>
-                                            <button>
-                                                <RiFacebookCircleLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
-                                            </button>
-                                            <button>
-                                                <BsTiktok className='bg-white hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
-                                            </button>
-                                            <button>
-                                                <BsInstagram className='bg-white hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
-                                            </button>
-                                            <button>
-                                                <RiYoutubeLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
-                                            </button>
-                                            <button>
-                                                <RiTwitterLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
-                                            </button>
+                                            <a target="_blank" aria-label="Facebook" href='https://www.facebook.com/yxreiprxd'>
+                                                <button aria-label="Facebook">
+                                                    <RiFacebookCircleLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
+                                                </button>
+                                            </a>
+
+                                            <a target="_blank" aria-label="Tiktok" href='https://www.tiktok.com/yxreiprxd'>
+                                                <button aria-label="Tiktok">
+                                                    <BsTiktok className='bg-white hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
+                                                </button>
+                                            </a>
+
+                                            <a target="_blank" aria-label="Instagram" href='https://www.instagram.com/yxreiprxd'>
+                                                <button aria-label="Instagram">
+                                                    <BsInstagram className='bg-white hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
+                                                </button>
+                                            </a>
+
+                                            <a target="_blank" aria-label="Youtube" href='https://www.youtube.com/yxreiprxd'>
+                                                <button aria-label="Youtube">
+                                                    <RiYoutubeLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
+                                                </button>
+                                            </a>
+
+                                            <a target="_blank" aria-label="Twitter" href='https://www.twitter.com/yxreiprxd'>
+                                                <button aria-label="Twitter">
+                                                    <RiTwitterLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
+                                                </button>
+                                            </a>
                                         </div>
                                     </div>
                                 </li>

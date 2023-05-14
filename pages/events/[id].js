@@ -27,7 +27,8 @@ export default ({ even }) => (
     <>
         <Head>
             <title> YUREI | HOME </title>
-            <meta name="keywords" content="nextjs" />
+            <meta name="description" content="grid display of the latest and notable releases from Yurei, featuring album covers, release titles, and artist names. Each release should link to a dedicated page providing more information about the album, including tracklist, streaming platforms, and purchase options." />
+            <meta name='keywords' content='grid, display, yurei, album cover, releases' />
         </Head>
 
         <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
@@ -53,23 +54,45 @@ export default ({ even }) => (
                 <div className='text-left pt-10'>
                     <h1 className='text-5xl font-semibold uppercase font-noto'>{even.Name}</h1>
                     <h1 className='text-3xl font-semibold uppercase font-noto'>{even.NoEvent}</h1>
-                    <h1 className='text-3xl font-semibold uppercase pt-10 font-noto'>When</h1>
+                    <h1 className='text-3xl font-semibold uppercase pt-10 font-noto pb-2'>When</h1>
                     <p className='text-xl text-gray-100'>{even.When}</p>
-                    <h1 className='text-3xl font-semibold uppercase pt-10 font-noto'>Phonker</h1>
+                    <h1 className='text-3xl font-semibold uppercase pt-10 font-noto pb-2'>Phonker</h1>
                     <div className='font-poppins font-normal text-gray-400'>
-                    <p className='text-xl pt-2'>{even.id1}</p>
-                    <p className='text-xl pt-2'>{even.id2}</p>
-                    <p className='text-xl pt-2'>{even.id3}</p>
-                    <p className='text-xl pt-2'>{even.id4}</p>
-                    <p className='text-xl pt-2'>{even.id5}</p>
-                    <p className='text-xl pt-2'>{even.id6}</p>
-                    <p className='text-xl pt-2'>{even.id7}</p>
-                    <p className='text-xl pt-2'>{even.id8}</p>
-                    <p className='text-xl pt-2'>{even.id9}</p>
-                    <p className='text-xl pt-2'>{even.id10}</p>
-                    <p className='text-xl pt-2'>{even.id11}</p>
+                        <Link href={'/artist/' + even.Id1}>
+                            <p className='cursor-pointer hover:pl-10'>{even.id1}</p>
+                        </Link>
+                        <Link href={'/artist/' + even.Id2}>
+                            <p className='cursor-pointer hover:pl-10'>{even.id2}</p>
+                        </Link>
+                        <Link href={'/artist/' + even.Id3}>
+                            <p className='cursor-pointer hover:pl-10'>{even.id3}</p>
+                        </Link>
+                        <Link href={'/artist/' + even.Id4}>
+                            <p className='cursor-pointer hover:pl-10'>{even.id4}</p>
+                        </Link>
+                        <Link href={'/artist/' + even.Id5}>
+                            <p className='cursor-pointer hover:pl-10'>{even.id5}</p>
+                        </Link>
+                        <Link href={'/artist/' + even.Id6}>
+                            <p className='cursor-pointer hover:pl-10'>{even.id6}</p>
+                        </Link>
+                        <Link href={'/artist/' + even.Id7}>
+                            <p className='cursor-pointer hover:pl-10'>{even.id7}</p>
+                        </Link>
+                        <Link href={'/artist/' + even.Id8}>
+                            <p className='cursor-pointer hover:pl-10'>{even.id8}</p>
+                        </Link>
+                        <Link href={'/artist/' + even.Id9}>
+                            <p className='cursor-pointer hover:pl-10'>{even.id9}</p>
+                        </Link>
+                        <Link href={'/artist/' + even.Id10}>
+                            <p className='cursor-pointer hover:pl-10'>{even.id10}</p>
+                        </Link>
+                        <Link href={'/artist/' + even.Id11}>
+                            <p className='cursor-pointer hover:pl-10'>{even.id11}</p>
+                        </Link>
                     </div>
-                    <h1 className='text-3xl font-semibold uppercase pt-10 font-noto'>Where</h1>
+                    <h1 className='text-3xl font-semibold uppercase pt-10 font-noto pb-2'>Where</h1>
                     <p className='text-xl max-w-xs text-gray-100'>{even.Where}</p>
                     <div className='text-left pt-10'></div>
                 </div>

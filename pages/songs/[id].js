@@ -2,8 +2,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import { releases } from '../../model/releases.js';
-import { BiLink } from 'react-icons/bi';
-import { useState } from 'react';
 
 
 export const getStaticProps = async ({ params }) => {
@@ -23,21 +21,19 @@ export const getStaticPaths = async () => {
     return { paths, fallback: false };
 };
 
-    
+
 
 
 export default ({ song }) => (
     <>
         <Head>
             <title> YUREI | {song.Title} - {song.Artist} </title>
-            <meta name='keywords' content='nextjs' />
-            <script src='../js/script.js' refer></script>
+            <meta name="description" content="grid display of the latest and notable releases from Yurei, featuring album covers, release titles, and artist names. Each release should link to a dedicated page providing more information about the album, including tracklist, streaming platforms, and purchase options." />
+            <meta name='keywords' content='grid, display, yurei, album cover, releases' />
         </Head>
-        <div class="cursor"></div>
-        <div class="cursor2"></div>
 
         <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
-            <div className='overflow-hidden relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-6 col-span-2'>
+            <div className='overflow-hidden relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-7 col-span-2'>
                 <div className='z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute'></div>
                 <Image
                     alt=''
@@ -57,27 +53,21 @@ export default ({ song }) => (
             <div className='col-span-2 text-white ml-5 mr-5 xl:mr-5 xl:ml-0 xl:col-span-1'>
                 <div className='text-left pt-10'>
                     <h2 className='text-3xl font-semibold uppercase font-noto'>{song.Title}</h2>
-                    <h3 className='pt-2 text-xl font-normal font-poppins'>By <span className='text-gray-400'>{song.Artist}</span></h3>
+                    <h3 className='pt-2 text-xl font-normal font-poppins'>By <span className='text-gray-400'>
+                        <Link href={'/artist/' + song.ArtistId}>
+                            {song.Artist}
+                        </Link>
+                    </span></h3>
                     <p className='pt-2 text-sm font-poppins font-normal'>{song.Description}</p>
                     <div className='text-left pt-10 font-poppins font-normal'>
-                        <h2 className='text-3xl font-semibold uppercase font-noto'>Song available here</h2>
+                        <h2 className='text-3xl font-semibold uppercase font-noto'>Track the song</h2>
 
                         <a target="_blank" href={song.spotifyURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
                             <h3 className='text-xl font-normal mr-5 w-fit'>{song.Spotify}</h3>
                             <div className='w-full'>
-                                <div className={song.IconSfy}></div>
+                                <div className='h-1 bg-white w-auto rounded-lg'></div>
                             </div>
-                            <div className='ml-5'>
-                                <div>
-                                    <Image
-                                        alt=''
-                                        src={song.LinkSfy}
-                                        height={30}
-                                        width={30}
-                                        class=''
-                                    />
-                                </div>
-                            </div>
+
                         </a>
 
                         <a target="_blank" href={song.SoundCloudURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
@@ -85,17 +75,7 @@ export default ({ song }) => (
                             <div className='w-full'>
                                 <div className={song.IconSC}></div>
                             </div>
-                            <div className='ml-5'>
-                                <div>
-                                    <Image
-                                        alt=''
-                                        src={song.LinkSC}
-                                        height={30}
-                                        width={30}
-                                        class=''
-                                    />
-                                </div>
-                            </div>
+
                         </a>
 
                         <a target="_blank" href={song.YouTubeURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
@@ -103,17 +83,7 @@ export default ({ song }) => (
                             <div className='w-full'>
                                 <div className={song.IconYT}></div>
                             </div>
-                            <div className='ml-5'>
-                                <div>
-                                    <Image
-                                        alt=''
-                                        src={song.LinkYT}
-                                        height={30}
-                                        width={30}
-                                        class=''
-                                    />
-                                </div>
-                            </div>
+
                         </a>
 
                         <a target="_blank" href={song.AppleMusicURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
@@ -121,17 +91,7 @@ export default ({ song }) => (
                             <div className='w-full'>
                                 <div className={song.IconAM}></div>
                             </div>
-                            <div className='ml-5'>
-                                <div>
-                                    <Image
-                                        alt=''
-                                        src={song.LinkAM}
-                                        height={30}
-                                        width={30}
-                                        class=''
-                                    />
-                                </div>
-                            </div>
+
                         </a>
 
                     </div>
@@ -154,7 +114,7 @@ export default ({ song }) => (
                 <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
                     {releases.slice(7).map(release => (
                         <Link href={'/songs/' + release.id} key={release.id}>
-                            <div className="overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-6">
+                            <div className="overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-7">
                                 <div className=" z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
                                     <div className="bg-black bg-opacity-50 h-full w-full flex justify-center items-center flex-col text-white">
                                         <h1 className='text-2xl xl:text-5xl font-bold flex '>
@@ -176,7 +136,6 @@ export default ({ song }) => (
                 </div >
             </div>
         </div>
-
     </>
 
 )
