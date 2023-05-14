@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
+import LazyImage from '../component/LazyImage';
 import { releases } from '../../model/releases.js';
 import { artists } from '../../model/artists.js';
 
@@ -36,7 +36,7 @@ export default ({ artist }) => (
         <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
             <div className='overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-6 col-span-2'>
                 <div className='z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute'></div>
-                <Image
+                <LazyImage
                     alt=''
                     src={artist.Picture}
                     layout='fill'
@@ -128,7 +128,7 @@ export default ({ artist }) => (
                                         <p className='opacity-80 text-sm font-poppins '>{release.Artist}</p>
                                     </div>
                                 </div> */}
-                                <Image
+                                <LazyImage
                                     alt=""
                                     src={release.Picture}
                                     layout="fill"

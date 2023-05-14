@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
+import LazyImage from '../component/LazyImage';
 import { events } from '../../model/events.js';
 
 
@@ -35,7 +35,7 @@ export default ({ even }) => (
             <div className="overflow-hidden relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-6 col-span-2">
                 <div className="z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute">
                 </div>
-                <Image
+                <LazyImage
                     alt=""
                     src={even.Picture}
                     layout="fill"

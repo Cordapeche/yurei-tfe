@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
+import LazyImage from '../component/LazyImage';
 import { artists } from '../model/artists.js';
 
 
@@ -34,7 +34,7 @@ export default ({ artistlist }) => (
                   </div>
               </div>
             </div>
-            <Image
+            <LazyImage
               alt=""
               src={artist.Picture}
               layout="fill"

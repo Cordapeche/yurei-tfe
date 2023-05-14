@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
+import LazyImage from '../component/LazyImage';
 import { events } from '../model/events.js';
 
 
@@ -34,7 +34,7 @@ export default ({ eventlist }) => (
                   <h2 className='text-xs lg:text-2xl lg:p-2 xl:text-4xl xl:p-2 font-bold text-center uppercase'>{even.When}</h2>
                 </div>
               </div>
-              <Image
+              <LazyImage
                 alt=""
                 src={even.Picture}
                 layout="fill"
