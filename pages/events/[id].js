@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { events } from '../../model/events.js';
+import LazyImage from '../component/LazyImage';
 
 
 export const getStaticProps = async ({ params }) => {
