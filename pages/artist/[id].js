@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import LazyImage from '../component/LazyImage';
+import LazyImage from '../../component/LazyImage';
 import { releases } from '../../model/releases.js';
 import { artists } from '../../model/artists.js';
 
