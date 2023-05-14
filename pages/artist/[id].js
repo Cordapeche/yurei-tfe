@@ -40,7 +40,7 @@ export default ({ artist }) => (
                     src={artist.Picture}
                     layout='fill'
                     objectFit='cover'
-                    class='object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out'
+                    class='object-cover w-full aspect-square '
                 />
             </div>
 
