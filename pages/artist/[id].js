@@ -36,7 +36,7 @@ export default ({ artist }) => (
 
         <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
             <div className='overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-6 col-span-2'>
-                <div className='z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute'></div>
+                <div className='z-10 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute'></div>
                 <Image
                     alt=''
                     src={artist.Picture}
