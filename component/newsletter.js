@@ -19,15 +19,15 @@ function NewsletterSubscription() {
   return (
     <div>
       <p>Subscribe to our newsletter</p>
-      <form onSubmit={handleSubmit} className='lg:items-end flex flex-col lg:flex-row'>
+      <form onSubmit={handleSubmit} className='lg:items-end flex flex-col lg:flex-row pt-5'>
         <input
-          type="email"
-          placeholder="Enter your email"
+          type='email'
+          placeholder='Enter your email'
           value={email}
           onChange={handleEmailChange}
           className='bg-black border-solid border-2 p-2  border-white lg:mr-3 lg:mb-0'
         />
-        <button type="submit" value='Subscribe' className='text-black bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Subscribe</button>
+        <button type='submit' value='Subscribe' className='text-black bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Subscribe</button>
       </form>
     </div>
 

@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Image from 'next/image';
+import Contactform from '../component/contactform';
 
 export default function Contact() {
   return (
@@ -34,15 +34,17 @@ export default function Contact() {
           </p>
 
           <h2 className='text-3xl pt-10 font-semibold uppercase font-noto '>GET IN TOUCH</h2>
-          <div className='flex flex-col gap-y-1 justify-center'>
+          {/* <div className='flex flex-col gap-y-1 justify-center'> */}
 
-            <form className='flex flex-col font-normal font-poppins'>
+            <Contactform />
+
+            {/* <form className='flex flex-col font-normal font-poppins'>
               <input type='text' name='name' placeholder='Name' className='bg-black border-solid border-2 p-2  border-white mt-2' />
               <input type='text' name='email' placeholder='Email' className='bg-black border-solid border-2 p-2  border-white mt-2' />
               <textarea id='message' rows='4' className='bg-black border-solid border-2 p-2  border-white mt-2' placeholder='What can you suggest us'></textarea>
               <button type='submit' value='submit' className='text-black bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Submit</button>
-            </form>
-          </div>
+            </form> */}
+          {/* </div> */}
         </div>
       </div>
     </>

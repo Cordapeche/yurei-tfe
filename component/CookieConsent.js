@@ -38,15 +38,15 @@ const CookieConsent = () => {
             <div className='relative w-full flex justify-center helpfullwindow'>
                 <div className='absolute py-5 px-4 xl:w-2/5 md:px-8 z-50 helpfulwindow'>
                     <div className='bg-black border-2 border-white p-10 text-white items-end'>
-                        <button onClick={handleHide} className='btns w-full flex justify-end pb-5 cursor-pointer bg-red-500'>
+                        <button onClick={handleHide} className='btns w-full flex justify-end pb-5 cursor-pointer'>
                             <CgClose className='text-white cursor-pointer ' size={40} />
                         </button>
                         <div className='text-center flex justify-center'>
                             <h1 className='text-2xl xl:text-5xl font-bold flex text-center pb-5'>Welcome to YŪREI 劣化!</h1>
                         </div>
                         <p>We are thrilled to have you join our booming website music label, where the beats are gritty, the samples are vintage, and the energy is undeniable. As you step into our vibrant community, get ready to immerse yourself in the unique world of phonk and make your mark on the genre.</p>
-                        <div className='flex flex-col pt-5 pd-20'>
-                            <button onClick={handleHideDiv} className='btns text-black bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Got it</button>
+                        <div className='flex flex-col pt-5 pd-20 cursor-pointer'>
+                            <button aria-label='understood' onClick={handleHideDiv} className='btns text-black bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Got it</button>
                         </div>
                     </div>
                 </div>
