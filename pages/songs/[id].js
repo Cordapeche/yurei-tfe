@@ -112,7 +112,7 @@ export default ({ song }) => (
         <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
             <div className=' col-span-4 '>
                 <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
-                    {releases.slice(7).map(release => (
+                    {releases.slice(10).sort(function (CatId, CatIdb) { return CatId.id - CatId.CatId}).map(release => (
                         <Link href={'/songs/' + release.id} key={release.id}>
                             <div className="overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-7">
                                 <div className="z-40 opacity-100 xl:opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">

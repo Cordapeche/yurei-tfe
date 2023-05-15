@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { releases } from '../../model/releases.js';
 import { artists } from '../../model/artists.js';
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 
 
 
@@ -116,7 +115,7 @@ export default ({ artist }) => (
             <div className=' col-span-4 '>
                 <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
 
-                    {releases.filter((item) => item.ArtistId === artist.id).map(release => (
+                    {releases.filter((item) => item.ArtistId === artist.id).sort(function (a, b) { return b.id - a.id }).map(release => (
 
                         <Link href={'/songs/' + release.id} key={release.id}>
 
