@@ -464,9 +464,40 @@ export const releases = [
         "LinkAM": "/link.svg",
 
         "SongType": "",
-    },    
+    },
     {
         "id": 16,
+        "Title": "GAME",
+        "Artist": "Mishashi Sensei",
+        "ArtistId": 2,
+        "CatId": 1,
+        "Picture": "/assets/cover/gamecover.jpg",
+        "Description": "October 30, 2021 © 2021 Mishashi Sensei",        
+
+        "spotifyURL": "https://open.spotify.com/album/2odikCpgsmMJq8TzABMtzk?si=VyoUhvlMS3ygBt8rx_w4eQ",
+        "Spotify": "Spotify",
+        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "LinkSfy": "/link.svg",
+        
+        "SoundCloudURL": "https://soundcloud.com/mishashi-sensei/game?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+        "SoundCloud": "SoundCloud",
+        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "LinkSC": "/link.svg",
+
+        "YouTubeURL": "https://youtu.be/kBPnuFG8j2g",
+        "YouTube": "YouTube",
+        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "LinkYT": "/link.svg",
+
+        "AppleMusicURL": "https://music.apple.com/be/album/game-slowed-reverb/1604297364?i=1604297365",
+        "AppleMusic": "AppleMusic",
+        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "LinkAM": "/link.svg",
+
+        "SongType": "",
+    },
+    {
+        "id": 19,
         "Title": "unloved",
         "Artist": "kaizx",
         "ArtistId": 10,
@@ -558,5 +589,5 @@ export const releases = [
 
         "SongType": "",
     },
-   
+
 ]
