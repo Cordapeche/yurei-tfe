@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import { BsInstagram, BsTiktok } from 'react-icons/bs';
 import { RiFacebookCircleLine, RiYoutubeLine, RiTwitterLine, } from 'react-icons/ri';
 import React, { useEffect } from "react";
+import Newsletter from '../component/newsletter';
 
 const NavBar = () => {
     const [isHidden, setIsHidden] = useState(false)
@@ -22,10 +23,10 @@ const NavBar = () => {
 
     return (
         <>
-            <nav className='bg-black text-white w-full py-5 px-4 md:px-8 rela relative '>
-                <div className='justify-between md:items-center md:flex sticky top-0'>
-                    <div className='flex items-center justify-between py-3 md:block'>
-                        <div href='#' className='flex items-center'>
+            <nav className='bg-black text-white w-full py-5 relative'>
+                <div className='justify-between md:items-center md:flex top-0 z-50'>
+                    <div className='flex items-center px-4 md:px-8 justify-between py-3 md:block '>
+                        <div className='flex items-center'>
                             <span className='text-3xl font-bold font-heading self-center whitespace-nowrap dark:text-white uppercase'>
                                 <div className='wrapper'>
                                     <h1 className='glitches font-noto font-black'>
@@ -89,11 +90,11 @@ const NavBar = () => {
                             </button>
                         </div>
                     </div>
-                    <div className='z-50 relative'>
+                    <div className='absolute md:relative z-50 w-full h-full'>
                         <div
-                            className={`flex-1 justify-self-center pb-3 md:block md:pb-0 md:mt-0 ${isHidden ? '' : 'hidden'}`}>
-                            <ul className='items-center justify-center md:flex md:space-x-8 md:mt-0 md:text-sm md:font-medium sm:pt-0 font-poppins uppercase'>
-                                <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm'>
+                            className={`flex-1 w-full h-full justify-self-center pb-3 md:block md:pb-0 md:mt-0 ${isHidden ? '' : 'hidden'}`}>
+                            <ul className='bg-black px-4 md:px-8 w-full items-center justify-end md:flex md:space-x-8 md:mt-0 md:text-sm md:font-medium sm:pt-0 font-poppins uppercase'>
+                                <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm '>
 
                                     <a className={router.pathname == "/" ? "glitch font-bold text-4xl md:text-lg" : ""} href={'/'} >releases</a>
                                 </li>
@@ -113,12 +114,7 @@ const NavBar = () => {
 
                                 <li className='text-center pt-20 md:pt-0 md:hidden'>
                                     <div className='flex flex-col gap-y-1 justify-center lg:justify-start font-poppins font-normal'>
-                                        <label>We've got stuff to tell you</label>
-                                        <form className='lg:items-end flex flex-col lg:flex-row pt-2'>
-                                            <input type='text' name='email' placeholder='Email' className='bg-black border-solid border-2 p-2  border-white lg:mr-3 lg:mb-0' />
-                                            <button type='submit' value='submit' className='text-black bg-white hover:bg-gray-300        border-solid border-2 p-2 mt-2'>Submit</button>
-                                        </form>
-
+                                    <Newsletter />
                                     </div>
                                 </li>
 

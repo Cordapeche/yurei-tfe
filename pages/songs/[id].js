@@ -115,7 +115,7 @@ export default ({ song }) => (
                     {releases.slice(10).sort(function (CatId, CatIdb) { return CatId.id - CatId.CatId}).map(release => (
                         <Link href={'/songs/' + release.id} key={release.id}>
                             <div className="overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-7">
-                                <div className="z-40 opacity-100 xl:opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
+                                <div className="z-10 opacity-100 xl:opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
                                     <div className="bg-black bg-opacity-50 h-full w-full flex justify-center items-center flex-col text-white">
                                         <h1 className='text-2xl xl:text-5xl font-bold flex '>
                                             <div className='font-noto uppercase'> {release.Title} </div>
