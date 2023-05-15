@@ -50,39 +50,65 @@ ready(function () {
     });
   })
 
-  function cookieName (){
+  function cookieName() {
     // Define cookie name
     var cookieName = 'hide_donate';
-  
+
     // Configure fancyBox
     $('.helpfulwindow').fancybox({
-        autoDimensions: false,
-        autoSize: false,
-        height: 'auto',
-        padding: 0,
-        width: 650,
-        beforeLoad: function() {
-          // Returning false will stop fancybox from opening
-          return ! $.cookie(cookieName);
-        },
-        afterClose: function() {
-          // Set cookie to hide fancybox for 1 day
-          $.cookie(cookieName, true, { expires: 1 });
-        }
+      autoDimensions: false,
+      autoSize: false,
+      height: 'auto',
+      padding: 0,
+      width: 650,
+      beforeLoad: function () {
+        // Returning false will stop fancybox from opening
+        return !$.cookie(cookieName);
+      },
+      afterClose: function () {
+        // Set cookie to hide fancybox for 1 day
+        $.cookie(cookieName, true, { expires: 1 });
+      }
     });
-  
+
     // Handle donate click event
     $('btnokay').on('click', function (event) {
-        event.preventDefault(); 
-  
-        // Hide fancybox and set cookie to hide fancy box for 7 days
-        $.fancybox.close();
-        $.cookie(cookieName, true, { expires: 7 });
+      event.preventDefault();
+
+      // Hide fancybox and set cookie to hide fancy box for 7 days
+      $.fancybox.close();
+      $.cookie(cookieName, true, { expires: 7 });
     });
-  
+
     // Launch fancyBox on first element
     setTimeout(function () {
-        $(".btnokay").trigger('click');
+      $(".btnokay").trigger('click');
     }, 2000);
+  };
+  function cookieName() {
+
+    var y = Cookies.get('accepted');
+
+    // console.log(y);
+    if (y == "yes") {
+      $('.card').css("display", "none");
+
+    } else {
+      $('.card').css("display", "block");
+    }
+
+    $(".btnt").click(function () { //btn click
+      console.log('cliqué')
+      Cookies.set('accepted', 'yes', { expires: 365 })
+      $('.card').css("display", "none");
+
+    }); //click
+
+    $(".btns").click(function () { //btn click
+      console.log('cliqué')
+      // Cookies.set('accepted', 'yes', { expires: 365})
+      $('.card').css("display", "none");
+
+    }); //click
   };
 });
