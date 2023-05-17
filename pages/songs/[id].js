@@ -64,18 +64,18 @@ export default ({ song }) => (
                     <div className='text-left pt-10 font-poppins font-normal'>
                         <h2 className='text-3xl font-semibold uppercase font-noto'>Track the song</h2>
 
-                        <a target="_blank" href={song.spotifyURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10 transition duration-300 ease-in-out'>
+                        <a target="_blank" href={song.spotifyURL} className='flex pt-2 flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10 transition duration-300 ease-in-out'>
                             <h3 className='text-xl font-normal mr-5 w-fit'>{song.Spotify}</h3>
                             <div className='w-full'>
-                                <div className="">{song.IconSfy}</div>
+                                <div className="bg-white w-auto rounded-lg text-white">{song.IconSfy}</div>
                             </div>
 
                         </a>
 
-                        {/* <a target="_blank" href={song.SoundCloudURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
+                        <a target="_blank" href={song.SoundCloudURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
                             <h3 className='text-xl font-normal mr-5 w-fit'>{song.SoundCloud}</h3>
                             <div className='w-full'>
-                                <div className={song.IconSC}></div>
+                                <div className="bg-white w-auto rounded-lg text-white">{song.IconSC}</div>
                             </div>
 
                         </a>
@@ -83,7 +83,7 @@ export default ({ song }) => (
                         <a target="_blank" href={song.YouTubeURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
                             <h3 className='text-xl font-normal mr-5 w-fit'>{song.YouTube}</h3>
                             <div className='w-full'>
-                                <div className={song.IconYT}></div>
+                                <div className="bg-white w-auto rounded-lg text-white">{song.IconYT}</div>
                             </div>
 
                         </a>
@@ -91,10 +91,10 @@ export default ({ song }) => (
                         <a target="_blank" href={song.AppleMusicURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
                             <h3 className='text-xl font-normal mr-5 w-fit'>{song.AppleMusic}</h3>
                             <div className='w-full'>
-                                <div className={song.IconAM}></div>
+                                <div className="bg-white w-auto rounded-lg text-white">{song.IconAM}</div>
                             </div>
 
-                        </a> */}
+                        </a>
 
                     </div>
                 </div>

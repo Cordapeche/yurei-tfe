@@ -50,12 +50,12 @@ const CookieConsent = () => {
         // </div>
 
         <div className='z-50 relative w-full flex justify-center helpfullwindow'>
-          <div className='w-full absolute xl:fixed flex justify-center text-white '>
+          <div className='w-full bg absolute xl:-mt-20 xl:fixed flex justify-center text-white '>
 
-            <div className='md:px-8 md:p-5 border-2 border-white bg-black w-11/12 2xl:w-1/2'>
+            <div className='md:px-8 md:p-5 border-2 border-white  bg-black w-11/12 2xl:w-1/2'>
 
-              <button onClick={handleHide} className='btns w-full flex justify-end pb-5 cursor-pointer'>
-                <CgClose className='text-white cursor-pointer ' size={40} />
+              <button onClick={handleHide} className='btns w-full flex justify-end cursor-pointer'>
+                <CgClose className='text-white cursor-pointer m-2' size={40} />
               </button>
               <div className=' flex flex-col items-center'>
                 <h1 className='text-2xl xl:text-5xl uppercase flex text-center pb-5 font-noto font-bold pt-10'>Welcome to YŪREI 劣化!</h1>
@@ -102,7 +102,7 @@ const CookieConsent = () => {
                 </div>
               </div>
 
-              <div className='flex flex-col px-4 mb-10 cursor-pointer'>
+              <div className='flex flex-col px-4 mb-5 cursor-pointer'>
                 <button aria-label='understood' onClick={handleHideDiv} className='btns text-black bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Got it</button>
               </div>
 
