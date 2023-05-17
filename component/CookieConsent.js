@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import React from 'react';
+
 import { CgClose } from 'react-icons/cg';
 
 const CookieConsent = () => {
