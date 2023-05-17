@@ -10,14 +10,14 @@ const CookieConsent = () => {
 
 
   useEffect(() => {
-    const isDivHidden = localStorage.getItem('isDivHidden');
+    const isDivHidden = localStorage.getItem('welcomemessageyurei');
     if (isDivHidden === 'true') {
       setIsDivVisible(false);
     }
   }, []);
 
   const handleHideDiv = () => {
-    localStorage.setItem('isDivHidden', 'true');
+    localStorage.setItem('welcomemessageyurei', 'true');
     setIsDivVisible(false);
 
   };
@@ -54,7 +54,9 @@ const CookieConsent = () => {
 
             <div className='md:px-8 md:p-5 border-2 border-white bg-black w-11/12 2xl:w-1/2'>
 
-
+              <button onClick={handleHide} className='btns w-full flex justify-end pb-5 cursor-pointer'>
+                <CgClose className='text-white cursor-pointer ' size={40} />
+              </button>
               <div className=' flex flex-col items-center'>
                 <h1 className='text-2xl xl:text-5xl uppercase flex text-center pb-5 font-noto font-bold pt-10'>Welcome to YŪREI 劣化!</h1>
                 <div className='m-5'>
