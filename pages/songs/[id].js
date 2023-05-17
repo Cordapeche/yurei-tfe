@@ -13,6 +13,7 @@ export const getStaticProps = async ({ params }) => {
 };
 
 
+  
 let min = 1;
 let max = 3;
 const CatNumber = Math.floor(Math.random() * (max - min + 1)) + min

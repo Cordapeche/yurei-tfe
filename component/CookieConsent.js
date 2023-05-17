@@ -10,14 +10,14 @@ const CookieConsent = () => {
 
 
   useEffect(() => {
-    const isDivHidden = localStorage.getItem('isDivHidden');
+    const isDivHidden = localStorage.getItem('yureihowtouse');
     if (isDivHidden === 'true') {
       setIsDivVisible(false);
     }
   }, []);
 
   const handleHideDiv = () => {
-    localStorage.setItem('isDivHidden', 'true');
+    localStorage.setItem('yureihowtouse', 'true');
     setIsDivVisible(false);
 
   };

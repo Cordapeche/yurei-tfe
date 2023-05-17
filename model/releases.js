@@ -495,38 +495,7 @@ export const releases = [
         "LinkAM": "/link.svg",
 
         "SongType": "",
-    },
-    {
-        "id": 19,
-        "Title": "unloved",
-        "Artist": "kaizx",
-        "ArtistId": 10,
-        "CatId": 2,
-        "Picture": "/assets/cover/unlovedcover.png",
-        "Description": "May 10, 2023 © 2023 kaizx",        
-
-        "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
-        "Spotify": "Spotify",
-        "IconSfy": "link",        
-        "LinkSfy": "/link.svg",
-        
-        "SoundCloudURL": "",
-        "SoundCloud": "",
-        "IconSC": "",        
-        "LinkSC": "/links.svg",
-
-        "YouTubeURL": "",
-        "YouTube": "",
-        "IconYT": "",        
-        "LinkYT": "/links.svg",
-
-        "AppleMusicURL": "",
-        "AppleMusic": "",
-        "IconAM": "",        
-        "LinkAM": "/links.svg",
-
-        "SongType": "",
-    },
+    }, 
     {
         "id": 17,
         "Title": "lune",
@@ -565,6 +534,36 @@ export const releases = [
         "ArtistId": 10,
         "CatId": 2,
         "Picture": "/assets/cover/blockscover.png",
+        "Description": "May 10, 2023 © 2023 kaizx",        
+
+        "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
+        "Spotify": "Spotify",
+        "IconSfy": "link",        
+        "LinkSfy": "/link.svg",
+        
+        "SoundCloudURL": "",
+        "SoundCloud": "",
+        "IconSC": "",        
+        "LinkSC": "/links.svg",
+
+        "YouTubeURL": "",
+        "YouTube": "",
+        "IconYT": "",        
+        "LinkYT": "/links.svg",
+
+        "AppleMusicURL": "",
+        "AppleMusic": "",
+        "IconAM": "",        
+        "LinkAM": "/links.svg",
+
+        "SongType": "",
+    },  {
+        "id": 19,
+        "Title": "unloved",
+        "Artist": "kaizx",
+        "ArtistId": 10,
+        "CatId": 2,
+        "Picture": "/assets/cover/unlovedcover.png",
         "Description": "May 10, 2023 © 2023 kaizx",        
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
