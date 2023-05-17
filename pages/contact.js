@@ -22,7 +22,7 @@ export default function Contact() {
             src="/assets/event/1.png"
             layout="fill"
             objectFit="cover"
-            class="object-cover w-full aspect-square group-hover:scale-105 transition duration-300 ease-in-out"
+            className="object-cover w-full aspect-square group-hover:scale-105 transition duration-300 ease-in-out"
           />
 
         </div>

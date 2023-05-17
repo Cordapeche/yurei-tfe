@@ -14,7 +14,7 @@ export default function About() {
 
 
       <div className='grid grid-cols-4 md:grid-cols-4 grid-flow-row-danse w-full overflow-hidden h-full'>
-        <div class="overflow-hidden  aspect-video cursor-pointer relative group aspect-w-3 aspect-h-4 xl:aspect-w-7 xl:aspect-h-3 col-span-4">
+        <div className="overflow-hidden  aspect-video cursor-pointer relative group aspect-w-3 aspect-h-4 xl:aspect-w-7 xl:aspect-h-3 col-span-4">
 
           <iframe src="https://www.youtube-nocookie.com/embed/fC1HF29n9UA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>

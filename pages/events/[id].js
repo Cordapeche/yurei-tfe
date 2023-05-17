@@ -40,7 +40,7 @@ export default ({ even }) => (
                     src={even.Picture}
                     layout="fill"
                     objectFit="cover"
-                    class="object-cover w-full "
+                    className="object-cover w-full "
                 />
             </div>
 

@@ -50,7 +50,7 @@ export default ({ released }) => (
               layout='fill'
               objectFit='cover'
               loading='lazy'
-              class='object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out'
+              className='object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out'
             />
           </div>
 

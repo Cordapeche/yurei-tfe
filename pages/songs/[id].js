@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { releases } from '../../model/releases.js';
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 
 export const getStaticProps = async ({ params }) => {
     const released = releases.filter((p) => p.id.toString() === params.id);
@@ -13,19 +12,11 @@ export const getStaticProps = async ({ params }) => {
     };
 };
 
+
 // let min = 1;
 // let max = 3;
-
-// function generateRandomNumber(min, max) {
-//     Math.floor(Math.random() * (max - min + 1)) + min
-//   }
-
-
-
-let min = 1;
-let max = 3;
-const CatNumber = Math.floor(Math.random() * (max - min + 1)) + min
-console.log(CatNumber);
+// const CatNumber = Math.floor(Math.random() * (max - min + 1)) + min
+// console.log(CatNumber);
 
 export const getStaticPaths = async () => {
     const paths = releases.map((song) => ({
@@ -51,7 +42,7 @@ export default ({ song }) => (
                     src={song.Picture}
                     layout='fill'
                     objectFit='cover'
-                    class='object-cover w-full aspect-square'
+                    className='object-cover w-full aspect-square'
                 />
             </div>
 
@@ -123,7 +114,7 @@ export default ({ song }) => (
         <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
             <div className=' col-span-4'>
                 <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
-                    {releases.filter((release) => release.CatId === CatNumber).slice(0, 4).map(release => (
+                    {releases.filter((release) => release.CatId === 2).slice(0, 4).map(release => (
                         <Link href={'/songs/' + release.id} key={release.id}>
                             <div className="overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-7">
                                 <div className="z-10 opacity-100 xl:opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
@@ -139,7 +130,7 @@ export default ({ song }) => (
                                     src={release.Picture}
                                     layout="fill"
                                     objectFit="cover"
-                                    class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
+                                    className="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
                                 />
                             </div>
                         </Link>
