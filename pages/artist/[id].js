@@ -29,7 +29,6 @@ export default ({ artist }) => (
 
     <>
         <Head>
-            <title> YUREI | {artist.Name} </title>
             <meta name="description" content="A grid layout showcasing the label's featured artists, each with a profile picture, artist name, and a brief introduction or tagline highlighting their style." />
             <meta name='keywords' content='grid, display, yurei, album cover, releases' />
         </Head>

@@ -13,9 +13,9 @@ export const getStaticProps = async ({ params }) => {
 };
 
 
-// let min = 1;
-// let max = 3;
-// const CatNumber = Math.floor(Math.random() * (max - min + 1)) + min
+let min = 1;
+let max = 3;
+const CatNumber = Math.floor(Math.random() * (max - min + 1)) + min
 // console.log(CatNumber);
 
 export const getStaticPaths = async () => {
@@ -29,7 +29,7 @@ export const getStaticPaths = async () => {
 export default ({ song }) => (
     <>
         <Head>
-            <title> YUREI | {song.Title +" - "+ song.Artist}</title>
+        {/* {song.Title +" - "+ song.Artist} */}
             <meta name="description" content="grid display of the latest and notable releases from Yurei, featuring album covers, release titles, and artist names. Each release should link to a dedicated page providing more information about the album, including tracklist, streaming platforms, and purchase options." />
             <meta name='keywords' content='grid, display, yurei, album cover, releases' />
         </Head>
@@ -114,7 +114,7 @@ export default ({ song }) => (
         <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
             <div className=' col-span-4'>
                 <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
-                    {releases.filter((release) => release.CatId === 2).slice(0, 4).map(release => (
+                    {releases.filter((release) => release.CatId === CatNumber).slice(0, 4).map(release => (
                         <Link href={'/songs/' + release.id} key={release.id}>
                             <div className="overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-7">
                                 <div className="z-10 opacity-100 xl:opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
