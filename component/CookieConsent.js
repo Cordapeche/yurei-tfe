@@ -10,14 +10,14 @@ const CookieConsent = () => {
 
 
   useEffect(() => {
-    const isDivHidden = localStorage.getItem('yureihowtouse');
+    const isDivHidden = localStorage.getItem('isDivHidden');
     if (isDivHidden === 'true') {
       setIsDivVisible(false);
     }
   }, []);
 
   const handleHideDiv = () => {
-    localStorage.setItem('yureihowtouse', 'true');
+    localStorage.setItem('isDivHidden', 'true');
     setIsDivVisible(false);
 
   };
@@ -49,8 +49,8 @@ const CookieConsent = () => {
         //   </div>
         // </div>
 
-        <div className='relative w-full flex justify-center helpfullwindow'>
-          <div className='w-full absolute xl:fixed flex justify-center text-white z-50'>
+        <div className='z-50 relative w-full flex justify-center helpfullwindow'>
+          <div className='w-full absolute xl:fixed flex justify-center text-white '>
 
             <div className='md:px-8 md:p-5 border-2 border-white bg-black w-11/12 2xl:w-1/2'>
 

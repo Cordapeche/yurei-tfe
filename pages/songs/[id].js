@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { releases } from '../../model/releases.js';
 import Image from 'next/image';
 
+
 export const getStaticProps = async ({ params }) => {
     const released = releases.filter((p) => p.id.toString() === params.id);
     return {
@@ -11,8 +12,6 @@ export const getStaticProps = async ({ params }) => {
         },
     };
 };
-
-
   
 let min = 1;
 let max = 3;
