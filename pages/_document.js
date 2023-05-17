@@ -14,8 +14,8 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
-        <div class='cursor hidden xl:block'></div>
-        <div class='cursor2 hidden xl:block'></div>
+        <div className='cursor hidden xl:block'></div>
+        <div className='cursor2 hidden xl:block'></div>
       </body>
     </Html>
   )
