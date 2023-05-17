@@ -10,22 +10,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/1olz3HctPa2yXmSniaCNLN?si=6462ff470d2a4905",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/prodbydxrk/rave?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://www.youtube.com/watch?v=PTZgxW_3LIQ",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/us/album/rave-single/1612134731",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "IconAM": "link",        
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -41,22 +41,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/7vX0rvoGneCCOJ2QPruNNZ?si=ccae425f43074944",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/mishashi-sensei/in-the-club?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/B4VCmGDPkYk",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/in-the-club-slowed-single/1596353931",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "IconAM": "link",        
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -72,22 +72,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/2BH3j05ZXWr5PR30sW079d?si=16540510343a4983",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/user-527654690/crystals?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/Ov6ymmqp27s",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/us/album/crystals/1607583458?i=1607583464",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "IconAM": "link",        
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -103,22 +103,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/ekii-836621345/spit-in-my-face-phonk?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/aOKQJQ0eyPM",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",
+        "IconAM": "link",
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -134,22 +134,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/ekii-836621345/spit-in-my-face-phonk?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/aOKQJQ0eyPM",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",
+        "IconYT": "link",
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",
+        "IconAM": "link",
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -165,7 +165,7 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "",
@@ -196,22 +196,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/ekii-836621345/spit-in-my-face-phonk?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/aOKQJQ0eyPM",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "IconAM": "link",        
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -227,7 +227,7 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "",
@@ -259,22 +259,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/ekii-836621345/spit-in-my-face-phonk?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/aOKQJQ0eyPM",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "IconAM": "link",        
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -290,22 +290,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/ekii-836621345/spit-in-my-face-phonk?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/aOKQJQ0eyPM",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "IconAM": "link",        
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -321,22 +321,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/5OhYmVuDlPEhZyFtf1B4O0?si=4b22eb023c8c4714",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/justperkinson/yavomag-tokyo-rain?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/xzAU_SdXoUE",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/tokyo-rain/1624975153?i=1624975157",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "IconAM": "link",        
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -352,22 +352,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/mishashi-sensei/mishashi-sensei-free?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/mhbbxq9hMnw",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/us/album/free/1653187140?i=1653187148",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "IconAM": "link",        
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -383,7 +383,7 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "",
@@ -414,22 +414,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/ekii-836621345/spit-in-my-face-phonk?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/aOKQJQ0eyPM",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "IconAM": "link",        
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -445,22 +445,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/ekii-836621345/spit-in-my-face-phonk?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/aOKQJQ0eyPM",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "IconAM": "link",        
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -476,22 +476,22 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/album/2odikCpgsmMJq8TzABMtzk?si=VyoUhvlMS3ygBt8rx_w4eQ",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "https://soundcloud.com/mishashi-sensei/game?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
         "SoundCloud": "SoundCloud",
-        "IconSC": "h-1 bg-white w-auto rounded-lg",        
+        "IconSC": "link",        
         "LinkSC": "/link.svg",
 
         "YouTubeURL": "https://youtu.be/kBPnuFG8j2g",
         "YouTube": "YouTube",
-        "IconYT": "h-1 bg-white w-auto rounded-lg",        
+        "IconYT": "link",        
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/game-slowed-reverb/1604297364?i=1604297365",
         "AppleMusic": "AppleMusic",
-        "IconAM": "h-1 bg-white w-auto rounded-lg",        
+        "IconAM": "link",        
         "LinkAM": "/link.svg",
 
         "SongType": "",
@@ -507,7 +507,7 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "",
@@ -538,7 +538,7 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "",
@@ -569,7 +569,7 @@ export const releases = [
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
         "Spotify": "Spotify",
-        "IconSfy": "h-1 bg-white w-auto rounded-lg",        
+        "IconSfy": "link",        
         "LinkSfy": "/link.svg",
         
         "SoundCloudURL": "",

@@ -39,7 +39,7 @@ export default ({ released }) => (
             <div className="z-10 opacity-100 xl:opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
               <div className="bg-black bg-opacity-50 h-full w-full break-words text-center flex justify-center items-center flex-col text-white">
                 <h1 className='text-2xl xl:text-5xl font-bold flex'>
-                  <div className='glitchedx uppercase font-noto font-bold '> {release.Title} </div>
+                  <div className='glitchedx uppercase font-noto font-bold '>{release.Title} </div>
                 </h1>
                 <p className='opacity-80 text-sm font-poppins font-medium'>{release.Artist}</p>
               </div>

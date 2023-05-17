@@ -6,13 +6,12 @@ import React from 'react';
 export default function Document() {
   return (
     <Html lang="en">
-      <link rel="shortcut icon" href="/logo.svg" />
-      <script src='../js/script.js' refer></script>      
-    <script src="../js/validetta.min.js"></script>
+      <Head>
+        <link rel="shortcut icon" href="/logo.svg" />
+        <script src='../js/script.js'></script>
+      </Head>
 
-      <Head />
-
-      <body>        
+      <body>
         <Main />
         <NextScript />
         <div class='cursor hidden xl:block'></div>

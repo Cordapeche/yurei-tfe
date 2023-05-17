@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { releases } from '../../model/releases.js';
 import Image from 'next/image';
-
+import { useRouter } from 'next/router';
 
 export const getStaticProps = async ({ params }) => {
     const released = releases.filter((p) => p.id.toString() === params.id);
@@ -13,6 +13,20 @@ export const getStaticProps = async ({ params }) => {
     };
 };
 
+// let min = 1;
+// let max = 3;
+
+// function generateRandomNumber(min, max) {
+//     Math.floor(Math.random() * (max - min + 1)) + min
+//   }
+
+
+
+let min = 1;
+let max = 3;
+const CatNumber = Math.floor(Math.random() * (max - min + 1)) + min
+console.log(CatNumber);
+
 export const getStaticPaths = async () => {
     const paths = releases.map((song) => ({
         params: { id: song.id.toString() },
@@ -21,20 +35,17 @@ export const getStaticPaths = async () => {
     return { paths, fallback: false };
 };
 
-
-
-
 export default ({ song }) => (
     <>
         <Head>
-            <title> YUREI | {song.Title} - {song.Artist} </title>
+            <title> YUREI | {song.Title +" - "+ song.Artist}</title>
             <meta name="description" content="grid display of the latest and notable releases from Yurei, featuring album covers, release titles, and artist names. Each release should link to a dedicated page providing more information about the album, including tracklist, streaming platforms, and purchase options." />
             <meta name='keywords' content='grid, display, yurei, album cover, releases' />
         </Head>
 
         <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
             <div className='overflow-hidden relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-7 col-span-2'>
-                <div className='z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute'></div>
+                <div className='z-10 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute'></div>
                 <Image
                     alt=''
                     src={song.Picture}
@@ -65,12 +76,12 @@ export default ({ song }) => (
                         <a target="_blank" href={song.spotifyURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10 transition duration-300 ease-in-out'>
                             <h3 className='text-xl font-normal mr-5 w-fit'>{song.Spotify}</h3>
                             <div className='w-full'>
-                                <div className='h-1 bg-white w-auto rounded-lg'></div>
+                                <div className="">{song.IconSfy}</div>
                             </div>
 
                         </a>
 
-                        <a target="_blank" href={song.SoundCloudURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
+                        {/* <a target="_blank" href={song.SoundCloudURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
                             <h3 className='text-xl font-normal mr-5 w-fit'>{song.SoundCloud}</h3>
                             <div className='w-full'>
                                 <div className={song.IconSC}></div>
@@ -92,7 +103,7 @@ export default ({ song }) => (
                                 <div className={song.IconAM}></div>
                             </div>
 
-                        </a>
+                        </a> */}
 
                     </div>
                 </div>
@@ -110,9 +121,9 @@ export default ({ song }) => (
         </div>
 
         <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
-            <div className=' col-span-4 '>
+            <div className=' col-span-4'>
                 <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
-                    {releases.slice(10).sort(function (CatId, CatIdb) { return CatId.id - CatId.CatId}).map(release => (
+                    {releases.filter((release) => release.CatId === CatNumber).slice(0, 4).map(release => (
                         <Link href={'/songs/' + release.id} key={release.id}>
                             <div className="overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-7">
                                 <div className="z-10 opacity-100 xl:opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
