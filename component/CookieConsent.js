@@ -50,12 +50,12 @@ const CookieConsent = () => {
         // </div>
 
         <div className='z-50 relative w-full flex justify-center helpfullwindow'>
-          <div className='w-full bg absolute xl:-mt-20 xl:fixed flex justify-center text-white '>
+          <div className='w-full bg absolute flex justify-center text-white '>
 
             <div className='md:px-8 md:p-5 border-2 border-white  bg-black w-11/12 2xl:w-1/2'>
 
-              <button onClick={handleHide} className='btns w-full flex justify-end cursor-pointer'>
-                <CgClose className='text-white cursor-pointer m-2' size={40} />
+              <button onClick={handleHide} className='btns p-2 w-full flex justify-end cursor-pointer'>
+                <CgClose className='text-white cursor-pointer' size={40} />
               </button>
               <div className=' flex flex-col items-center'>
                 <h1 className='text-2xl xl:text-5xl uppercase flex text-center pb-5 font-noto font-bold pt-10'>Welcome to YŪREI 劣化!</h1>
