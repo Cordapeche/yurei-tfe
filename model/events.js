@@ -3,7 +3,7 @@ export const events = [
     {
         "id": 1,
         "Name": "rave friday",        
-        "Picture": "/assets/event/ravefridaycover.png",
+        "Picture": "/assets/event/ravefridaycover.webp",
         "Where": "Parc du Cinquantenaire, 1040 Etterbeek",
         "When": " September 28th June 2023",
         "Price": "Free",
@@ -33,7 +33,7 @@ export const events = [
     {
         "id": 2,
         "Name": "THE initial MEETING",        
-        "Picture": "/assets/event/theinitialmeetingcover.png",
+        "Picture": "/assets/event/theinitialmeetingcover.webp",
         "Where": "Place de la monnais, 1000 Bruxelles",
         "When": " September 23th June 2023",
         "Price": "Free",
@@ -63,7 +63,7 @@ export const events = [
     {
         "id": 3,
         "Name": "PHONK サイド",        
-        "Picture": "/assets/event/phonksidecover.png",
+        "Picture": "/assets/event/phonksidecover.webp",
         "Where": "Quartier Royal, 1000 Bruxelles",
         "When": " Friday 30th June 2023",
         "Price": "5€",
