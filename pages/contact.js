@@ -19,7 +19,7 @@ export default function Contact() {
         <div className='aspect-video cursor-pointer relative group aspect-w-3 aspect-h-2 xl:aspect-w-7 col-span-4'>
           <Image
             alt=""
-            src="/assets/event/contactcover.png"
+            src="/assets/event/contactcover.webp"
             layout="fill"
             objectFit="cover"
             className="object-cover w-full aspect-square group-hover:scale-105 transition duration-300 ease-in-out"
