@@ -5,7 +5,7 @@ export const releases = [
         "Artist": "Dxrk ダーク",
         "ArtistId": 1,
         "CatId": 1,
-        "Picture": "/assets/cover/ravecover.png",
+        "Picture": "/assets/cover/ravecover.webp",
         "Description": "If there’s any artist who can say they had a big year, it’s Dxrk ダーク. Starting 2022 as an unknown entity, the Algerian phonk producer ended the year as the most-streamed artist from the Middle East and North Africa globally. ",        
 
         "spotifyURL": "https://open.spotify.com/track/1olz3HctPa2yXmSniaCNLN?si=6462ff470d2a4905",
@@ -36,7 +36,7 @@ export const releases = [
         "Artist": "Mishashi Sensei",
         "ArtistId": 2,
         "CatId": 1,
-        "Picture": "/assets/cover/intheclubcover.jpg",
+        "Picture": "/assets/cover/intheclubcover.webp",
         "Description": "October 22, 2021 © 2021 Mishashi Sensei",        
 
         "spotifyURL": "https://open.spotify.com/track/7vX0rvoGneCCOJ2QPruNNZ?si=ccae425f43074944",
@@ -67,7 +67,7 @@ export const releases = [
         "Artist": "Isolate.exe",
         "ArtistId": 3,
         "CatId": 1,
-        "Picture": "/assets/cover/crystalscover.jpg",
+        "Picture": "/assets/cover/crystalscover.webp",
         "Description": "January 28, 2022 © 2022 Isolate.exe",        
 
         "spotifyURL": "https://open.spotify.com/track/2BH3j05ZXWr5PR30sW079d?si=16540510343a4983",
@@ -98,7 +98,7 @@ export const releases = [
         "Artist": "PLAYAMANE",
         "ArtistId": 4,
         "CatId": 2,
-        "Picture": "/assets/cover/nothingisholy.jpg",
+        "Picture": "/assets/cover/nothingisholy.webp",
         "Description": "January 21, 2022 © 2022 Kordhell",        
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
@@ -129,7 +129,7 @@ export const releases = [
         "Artist": "Skorde",
         "ArtistId": 5,
         "CatId": 3,
-        "Picture": "/assets/cover/despair.jpg",
+        "Picture": "/assets/cover/despair.webp",
         "Description": "November 18, 2022 © 2022 Mishashi Sensei",        
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
@@ -160,7 +160,7 @@ export const releases = [
         "Artist": "kaizx",
         "ArtistId": 10,
         "CatId": 3,
-        "Picture": "/assets/cover/darkpxrplecover.png",
+        "Picture": "/assets/cover/darkpxrplecover.webp",
         "Description": "May 10, 2023 © 2023 kaizx",        
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
@@ -191,7 +191,7 @@ export const releases = [
         "Artist": "MUPP",
         "ArtistId": 6,
         "CatId": 1,
-        "Picture": "/assets/cover/tokyorevengerscover.jpg",
+        "Picture": "/assets/cover/tokyorevengerscover.webp",
         "Description": "May 25, 2021 © 2022 Mishashi Sensei",        
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
@@ -222,7 +222,7 @@ export const releases = [
         "Artist": "kaizx",
         "ArtistId": 10,
         "CatId": 3,
-        "Picture": "/assets/cover/downbadcover.png",
+        "Picture": "/assets/cover/downbadcover.webp",
         "Description": "May 10, 2023 © 2023 kaizx",        
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
@@ -254,7 +254,7 @@ export const releases = [
         "Artist": "PRXSXNT FXTURE",
         "ArtistId": 7,
         "CatId": 3,
-        "Picture": "/assets/cover/housecover.jpg",
+        "Picture": "/assets/cover/housecover.webp",
         "Description": "May 25, 2021 © 2022 Mishashi Sensei",        
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
@@ -285,7 +285,7 @@ export const releases = [
         "Artist": "PlayaPhonk",
         "ArtistId": 8,
         "CatId": 2,
-        "Picture": "/assets/cover/immortalcover.jpg",
+        "Picture": "/assets/cover/immortalcover.webp",
         "Description": "May 17, 2022 © 2022 PlayaPhonk",        
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
@@ -316,7 +316,7 @@ export const releases = [
         "Artist": "Yavomag",
         "ArtistId": 9,
         "CatId": 2,
-        "Picture": "/assets/cover/tokyorain.jpg",
+        "Picture": "/assets/cover/tokyorain.webp",
         "Description": "May 17, 2022 © 2022 PlayaPhonk",        
 
         "spotifyURL": "https://open.spotify.com/track/5OhYmVuDlPEhZyFtf1B4O0?si=4b22eb023c8c4714",
@@ -347,7 +347,7 @@ export const releases = [
         "Artist": "Mishashi Sensei",
         "ArtistId": 2,
         "CatId": 1,
-        "Picture": "/assets/cover/freecover.jpg",
+        "Picture": "/assets/cover/freecover.webp",
         "Description": "November 18, 2022 © 2022 Mishashi Sensei",        
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
@@ -378,7 +378,7 @@ export const releases = [
         "Artist": "kaizx",
         "ArtistId": 10,
         "CatId": 2,
-        "Picture": "/assets/cover/cordcover.png",
+        "Picture": "/assets/cover/cordcover.webp",
         "Description": "May 10, 2023 © 2023 kaizx",        
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
@@ -409,7 +409,7 @@ export const releases = [
         "Artist": "PLAYAMANE",
         "ArtistId": 4,
         "CatId": 1,
-        "Picture": "/assets/cover/midnightcover.jpg",
+        "Picture": "/assets/cover/midnightcover.webp",
         "Description": "May 25, 2021 © 2022 Mishashi Sensei",        
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
@@ -440,7 +440,7 @@ export const releases = [
         "Artist": "Dxrk ダーク",
         "ArtistId": 1,
         "CatId": 2,
-        "Picture": "/assets/cover/r34cover.jpg",
+        "Picture": "/assets/cover/r34cover.webp",
         "Description": "November 18, 2022 © 2022 Mishashi Sensei",
 
         "spotifyURL": "https://open.spotify.com/track/68hzxCOjjiql1RBLxBiFrM?si=fb91efea1e144248",
@@ -471,7 +471,7 @@ export const releases = [
         "Artist": "Mishashi Sensei",
         "ArtistId": 2,
         "CatId": 1,
-        "Picture": "/assets/cover/gamecover.jpg",
+        "Picture": "/assets/cover/gamecover.webp",
         "Description": "October 30, 2021 © 2021 Mishashi Sensei",        
 
         "spotifyURL": "https://open.spotify.com/album/2odikCpgsmMJq8TzABMtzk?si=VyoUhvlMS3ygBt8rx_w4eQ",
@@ -502,7 +502,7 @@ export const releases = [
         "Artist": "kaizx",
         "ArtistId": 10,
         "CatId": 2,
-        "Picture": "/assets/cover/lunecover.png",
+        "Picture": "/assets/cover/lunecover.webp",
         "Description": "May 10, 2023 © 2023 kaizx",        
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
@@ -533,7 +533,7 @@ export const releases = [
         "Artist": "kaizx",
         "ArtistId": 10,
         "CatId": 2,
-        "Picture": "/assets/cover/blockscover.png",
+        "Picture": "/assets/cover/blockscover.webp",
         "Description": "May 10, 2023 © 2023 kaizx",        
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",

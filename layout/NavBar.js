@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { TbMenu } from 'react-icons/tb';
 import { CgClose } from 'react-icons/cg';
 import { useRouter } from 'next/router';
@@ -7,6 +7,7 @@ import { BsInstagram, BsTiktok } from 'react-icons/bs';
 import { RiFacebookCircleLine, RiYoutubeLine, RiTwitterLine, } from 'react-icons/ri';
 import React, { useEffect } from 'react';
 import Newsletter from '../component/newsletter';
+import gsap from 'gsap';
 
 const NavBar = () => {
     const [isHidden, setIsHidden] = useState(false)
@@ -20,6 +21,17 @@ const NavBar = () => {
         }, 5000);
     }, []);
 
+    const elementRef = useRef(null);
+
+    useEffect(() => {
+      const element = elementRef;
+  
+      gsap.from(element, {        
+        duration: 1,
+        opacity: 0,
+        x: 100,
+      });
+    }, []);
 
     return (
         <>
@@ -29,7 +41,7 @@ const NavBar = () => {
                         <div className='flex items-center'>
                             <span className='text-3xl font-bold font-heading self-center whitespace-nowrap dark:text-white uppercase'>
                                 <div className='wrapper'>
-                                    <h1 className='glitches font-noto font-black'>
+                                    <h1 className='glitches font-noto font-black logo' ref={elementRef}>
                                         <div className='line'>
                                             <Link href={'/'}>YŪREI 劣化</Link>
                                         </div>
@@ -75,7 +87,7 @@ const NavBar = () => {
                         </div>
                         <div className='md:hidden'>
                             <button aria-label='menu'
-                                className='p-2 text-gray-700 rounded-md focus:border-gray-400 focus:border'
+                                className='p-2 text-gray-700 rounded-md focus:border-gray-400 focus:border menu'
                                 onClick={() => setIsHidden(!isHidden)}
                             >
                                 {isHidden ? (
@@ -93,7 +105,7 @@ const NavBar = () => {
                     <div className='absolute md:relative z-50 w-full h-full'>
                         <div
                             className={`flex-1 w-full h-full justify-self-center pb-3 md:block md:pb-0 md:mt-0 ${isHidden ? '' : 'hidden'}`}>
-                            <ul className='bg-black px-4 md:px-8 w-full items-center justify-end md:flex md:space-x-8 md:mt-0 md:text-sm md:font-medium sm:pt-0 font-poppins uppercase'>
+                            <ul className='bg-black px-4 md:px-8 w-full items-center justify-end md:flex md:space-x-8 md:mt-0 md:text-sm md:font-medium sm:pt-0 font-poppins uppercase menu'>
                                 <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm '>
 
                                     <a className={router.pathname == '/' ? 'glitch font-bold text-4xl md:text-lg' : ''} href={'/'} >releases</a>
