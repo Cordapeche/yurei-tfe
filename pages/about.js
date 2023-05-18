@@ -21,12 +21,21 @@ export default function About() {
         <div className='col-span-1 text-white hidden md:block'></div>
         <div className='pt-10 col-span-4 xl:col-span-1 text-white ml-5 mr-5 xl:mr-5 xl:ml-0'>
           <h2 className='text-3xl uppercase font-noto font-semibold pb-2'>who are we</h2>
-          <p className='text-sm font-normal font-poppins '>
-            Yurei is phonk, underground based label. Our main objective is to creat phonk related events every Friday night. We also provide material to our selected artists.
-            If you are willing to work with us, click here to send us your best motivation.<br></br>
+          <p className='text-sm font-normal font-poppins'>
+            At our label, we celebrate the fusion of old-school sounds with a modern twist, creating a sonic experience that transports listeners to another era while keeping them firmly rooted in the present. We are passionate about pushing boundaries, embracing experimentation, and nurturing raw talent. With us, you'll find a platform to express your musical vision and reach audiences who crave the essence of true phonk.</p>
 
-            Created on January 2023, Yurei was first meant to be a simple house where anyone could get their voice heard.
-            We really stuck to that idea until we totally fall in love with the phonk category. Now we live to keep the phonk alive.
+          <p className='text-sm font-normal font-poppins pt-2'>Our dedicated team of industry professionals is here to support you every step of the way. From production to promotion, we are committed to helping you refine your craft and amplify your voice. Collaborations, feedback sessions, and networking opportunities are all part of our thriving ecosystem. Together, we'll carve out a path that propels your career to new heights.</p>
+
+          <p className='text-sm font-normal font-poppins pt-2'>As a member of our label, you'll be joining a family of like-minded artists who share your passion for phonk. Our community is vibrant, diverse, and supportive, fostering an environment of creativity and collaboration. Together, we'll push the boundaries of phonk music, break new ground, and leave a lasting impact on the scene.</p>
+
+          <p className='text-sm font-normal font-poppins pt-2'>So, get ready to make some serious noise, create unforgettable tracks, and captivate audiences with your distinct phonk style. The Phonk Palace is your home, and we can't wait to witness your talent blossom and make waves in the industry.</p>
+
+          <p className='text-sm font-normal font-poppins pt-2'>Once again, welcome to the Phonk Palace! Let's embark on this incredible musical journey together and revolutionize the phonk scene.
+          </p>
+          {/* <p className='text-sm font-normal font-poppins pt-2'>Yours in rhythm and groove,
+          </p> */}
+          <p className='text-sm font-normal font-poppins pt-2'>
+            By lovers for lovers, YŪREI 劣化
           </p>
         </div>
       </div>

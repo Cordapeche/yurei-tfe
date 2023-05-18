@@ -93,6 +93,8 @@ export default ({ even }) => (
                     </div>
                     <h1 className='text-3xl font-semibold uppercase pt-10 font-noto pb-2'>Where</h1>
                     <p className='text-xl max-w-xs text-gray-100'>{even.Where}</p>
+                    <h1 className='text-3xl font-semibold uppercase pt-10 font-noto pb-2'>Price</h1>
+                    <p className='text-xl max-w-xs text-gray-100'>{even.Price}</p>
                     <div className='text-left pt-10'></div>
                 </div>
             </div>

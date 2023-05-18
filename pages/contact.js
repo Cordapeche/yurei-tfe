@@ -19,7 +19,7 @@ export default function Contact() {
         <div className='aspect-video cursor-pointer relative group aspect-w-3 aspect-h-2 xl:aspect-w-7 col-span-4'>
           <Image
             alt=""
-            src="/assets/event/1.png"
+            src="/assets/event/contactcover.png"
             layout="fill"
             objectFit="cover"
             className="object-cover w-full aspect-square group-hover:scale-105 transition duration-300 ease-in-out"
@@ -29,23 +29,18 @@ export default function Contact() {
         <div className='col-span-1 text-white hidden md:block'></div>
         <div className='col-span-4 xl:col-span-1 text-white ml-5 mr-5'>
           <h2 className='pt-10 text-3xl font-semibold uppercase font-noto '>REASON TO CONTACT US</h2>
-          <p className='pt-2 text-sm font-normal font-poppins'>
-            Better reason will be uploaded whenever I get the time to type it. Until then, have some: Lorem ipsum dolor sit amet. Qui ipsum velit et illum repudiandae non galisum architecto! Sit impedit obcaecati ut quam eius et rerum eveniet ea ratione autem qui quasi nihil.
-          </p>
-
-          <h2 className='text-3xl pt-10 font-semibold uppercase font-noto '>GET IN TOUCH</h2>
-          {/* <div className='flex flex-col gap-y-1 justify-center'> */}
-
-            <Contactform />
-
-            {/* <form className='flex flex-col font-normal font-poppins'>
-              <input type='text' name='name' placeholder='Name' className='bg-black border-solid border-2 p-2  border-white mt-2' />
-              <input type='text' name='email' placeholder='Email' className='bg-black border-solid border-2 p-2  border-white mt-2' />
-              <textarea id='message' rows='4' className='bg-black border-solid border-2 p-2  border-white mt-2' placeholder='What can you suggest us'></textarea>
-              <button type='submit' value='submit' className='text-black bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Submit</button>
-            </form> */}
-          {/* </div> */}
+          <p className='text-sm font-normal font-poppins pt-2'>
+            You are an artist looking for a submissions? A collaboration opportunities? Maybe looking for a distribution and/or a promotion?
+            </p>
+          <p className='text-sm font-normal font-poppins pt-2'>
+            Whatever you are looking for, you are soon getting your answers. Complete this for and submit it to us and we will answer to you respectfully.
+            </p>
+          <h2 className='text-3xl pt-10 font-semibold uppercase font-noto '>GET IN TOUCH</h2>          <Contactform />
+          <h2 className='text-3xl pt-10 font-semibold uppercase font-noto '>Contact information</h2> 
+          <h3 className='pt-2 text-xl font-semibold'>Email: <span className='text-sm font-normal font-poppins'>info@yurei.be</span> </h3>
+          <h3 className='pt-2 text-xl font-semibold'>Phone: <span className='text-sm font-normal font-poppins'>+32488 00 00 00</span> </h3>
         </div>
+        
       </div>
     </>
   )

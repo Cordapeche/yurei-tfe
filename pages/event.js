@@ -24,7 +24,7 @@ export default ({ eventlist }) => (
     <div className='min-h-screen bg-black'>
 
       <div className='grid grid-cols-2 md:grid-cols-2 grid-flow-row-danse w-full overflow-hidden h-full'>
-        {events.map(even => (
+        {events.sort(function (a, b) { return b.id - a.id }).map(even => (
           <Link href={'/events/' + even.id} key={even.id}>
             <div className="overflow-hidden  aspect-video cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-4">
               <div className=" z-10 opacity-100 xl:opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute">
