@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import React from 'react';
-
 import { CgClose } from 'react-icons/cg';
 
 const CookieConsent = () => {
@@ -17,7 +16,7 @@ const CookieConsent = () => {
   }, []);
 
   const handleHideDiv = () => {
-    localStorage.setItem('welcomemessageyurei', 'true');
+    localStorage.setItem('welcomemessageonyurei', 'true');
     setIsDivVisible(false);
 
   };
@@ -49,19 +48,21 @@ const CookieConsent = () => {
         //   </div>
         // </div>
 
-        <div className='z-50 relative w-full flex justify-center helpfullwindow'>
-          <div className='w-full bg absolute flex justify-center text-white '>
+        <div className='z-30 relative w-full  flex justify-center helpfullwindow bg-blue-500'>
+          
+          <div className='z-50 w-full fixed h-screen -top-0 flex justify-center text-white bg-black bg-opacity-50'>           
 
-            <div className='md:px-8 md:p-5 border-2 border-white  bg-black w-11/12 2xl:w-1/2'>
+          </div>
+          <div className='z-50 md:px-8 fixed md:p-5 border-2 border-white bg-black w-11/12 2xl:w-1/2'>
 
               <button onClick={handleHide} className='btns p-2 w-full flex justify-end cursor-pointer'>
                 <CgClose className='text-white cursor-pointer' size={40} />
               </button>
-              <div className=' flex flex-col items-center'>
+              <div className=' flex flex-col items-center text-white'>
                 <h1 className='text-2xl xl:text-5xl uppercase flex text-center pb-5 font-noto font-bold pt-10'>Welcome to YŪREI 劣化!</h1>
                 <div className='m-5'>
-                  <p className='font-poppins font-medium pb-5 text-base'>We're excited to have you join our booming phonk music, where the beats are gritty, the samples are vintage, and the energy is undeniable. where the beats are gritty, the samples are vintage, and the energy is undeniable.</p>
-                  <p className='font-poppins font-medium pb-5 text-base'>Here's a handy guide to help you navigate and make the most of your experience on our website:</p>
+                  <p className='font-poppins font-normal mx-40 text-center pb-5 text-base'>We're excited to have you join our booming phonk music, where the beats are gritty, the samples are vintage, and the energy is undeniable.</p>
+                  {/* <p className='font-poppins font-medium pb-5 text-base'>Here's a handy guide to help you navigate and make the most of your experience on our website:</p>
 
                   <ul className="list-disc font-poppins font-medium uppercase md:mx-20">
                     Homepage:
@@ -98,7 +99,7 @@ const CookieConsent = () => {
                     <li className="ml-5 font-normal normal-case text-sm">
                       Fill out the contact form, and we'll get back to you as soon as possible.
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
 
@@ -107,8 +108,6 @@ const CookieConsent = () => {
               </div>
 
             </div>
-
-          </div>
 
         </div>
 

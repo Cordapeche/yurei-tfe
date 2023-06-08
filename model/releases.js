@@ -527,36 +527,6 @@ export const releases = [
 
         "SongType": "",
     },
-    {
-        "id": 18,
-        "Title": "blocks",
-        "Artist": "kaizx",
-        "ArtistId": 10,
-        "CatId": 2,
-        "Picture": "/assets/cover/blockscover.webp",
-        "Description": "May 10, 2023 © 2023 kaizx",        
-
-        "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
-        "Spotify": "Spotify",
-        "IconSfy": "-",        
-        "LinkSfy": "/link.svg",
-        
-        "SoundCloudURL": "",
-        "SoundCloud": "",
-        "IconSC": "",        
-        "LinkSC": "/links.svg",
-
-        "YouTubeURL": "",
-        "YouTube": "",
-        "IconYT": "",        
-        "LinkYT": "/links.svg",
-
-        "AppleMusicURL": "",
-        "AppleMusic": "",
-        "IconAM": "",        
-        "LinkAM": "/links.svg",
-
-        "SongType": "",
-    },
+    
 
 ]

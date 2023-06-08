@@ -7,7 +7,6 @@ import { BsInstagram, BsTiktok } from 'react-icons/bs';
 import { RiFacebookCircleLine, RiYoutubeLine, RiTwitterLine, } from 'react-icons/ri';
 import React, { useEffect } from 'react';
 import Newsletter from '../component/newsletter';
-import gsap from 'gsap';
 
 const NavBar = () => {
     const [isHidden, setIsHidden] = useState(false)
@@ -21,17 +20,7 @@ const NavBar = () => {
         }, 5000);
     }, []);
 
-    const elementRef = useRef(null);
-
-    useEffect(() => {
-      const element = elementRef;
   
-      gsap.from(element, {        
-        duration: 1,
-        opacity: 0,
-        x: 100,
-      });
-    }, []);
 
     return (
         <>
@@ -41,7 +30,7 @@ const NavBar = () => {
                         <div className='flex items-center'>
                             <span className='text-3xl font-bold font-heading self-center whitespace-nowrap dark:text-white uppercase'>
                                 <div className='wrapper'>
-                                    <h1 className='glitches font-noto font-black logo' ref={elementRef}>
+                                    <h1 className='glitches font-noto font-black logo' >
                                         <div className='line'>
                                             <Link href={'/'}>YŪREI 劣化</Link>
                                         </div>
@@ -51,32 +40,32 @@ const NavBar = () => {
                                                     opacity: showElement ? 1 : 0
                                                 }}
                                             >
+                                                <div className='line absolute text-black'>
+                                                    <Link href={'/'}>.</Link>
+                                                </div>
                                                 <div className='line absolute'>
-                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                    <Link href={'/'}>YXREI 劣化</Link>
+                                                </div>
+                                                <div className='line absolute'>
+                                                    <Link href={'/'}>YŪRXI 劣化</Link>
                                                 </div>
                                                 <div className='line absolute'>
                                                     <Link href={'/'}>YŪREI 劣化</Link>
                                                 </div>
                                                 <div className='line absolute'>
-                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                    <Link href={'/'}>YŪREX 劣化</Link>
                                                 </div>
                                                 <div className='line absolute'>
                                                     <Link href={'/'}>YŪREI 劣化</Link>
                                                 </div>
                                                 <div className='line absolute'>
-                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                    <Link href={'/'}>XŪREI 劣化</Link>
                                                 </div>
                                                 <div className='line absolute'>
-                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                    <Link href={'/'}>YŪXEI 劣化</Link>
                                                 </div>
                                                 <div className='line absolute'>
-                                                    <Link href={'/'}>YŪREI 劣化</Link>
-                                                </div>
-                                                <div className='line absolute'>
-                                                    <Link href={'/'}>YŪREI 劣化</Link>
-                                                </div>
-                                                <div className='line absolute'>
-                                                    <Link href={'/'}>YŪREI 劣化</Link>
+                                                    <Link href={'/'}>YŪREI XX</Link>
                                                 </div>
                                             </div>) : (
                                             <div></div>

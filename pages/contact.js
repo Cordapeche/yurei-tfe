@@ -16,7 +16,7 @@ export default function Contact() {
 
 
       <div className='grid grid-cols-4 md:grid-cols-4 grid-flow-row-danse w-full overflow-hidden h-full'>
-        <div className='aspect-video cursor-pointer relative group aspect-w-3 aspect-h-2 xl:aspect-w-7 col-span-4'>
+        <div className='aspect-video cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 col-span-7'>
           <Image
             alt=""
             src="/assets/event/contactcover.webp"
