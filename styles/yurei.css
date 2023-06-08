@@ -593,7 +593,7 @@ body {
 
 .helpfullwindow {
   opacity: 0;
-  animation: delayedDisplay 5s forwards;
+  animation: delayedDisplay 2s forwards;
 }
 
 @keyframes delayedDisplay {
@@ -608,8 +608,3 @@ body {
   }
 }
 
-.helpfullwindow {
-  background-color: #ff0000;
-  height: 100%;
-  width: 100%;
-}
