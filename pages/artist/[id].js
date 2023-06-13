@@ -34,7 +34,7 @@ export default ({ artist }) => (
         </Head>
 
         <div className='grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
-            <div className='overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-7 xl:aspect-h-6 col-span-2'>
+            <div className='overflow-hidden cursor-pointer relative group aspect-w-3 aspect-h-3 xl:aspect-w-4 xl:aspect-h-4 col-span-2'>
                 <div className='z-10 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute'></div>
                 <Image
                     alt=''
@@ -62,36 +62,36 @@ export default ({ artist }) => (
 
                         <div className='flex flex-row w-full justify-stretch items-center font-poppins'>
                             <a target="_blank" href={artist.YouTubeUrl}>
-                                <div className='text-xl font-normal font-poppins hover:pl-10'>
-                                    {artist.YouTube} <span className='text-gray-400'>{artist.YouTubeTag}</span>
+                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 menucolor'>
+                                    {artist.YouTube} <span className='text-gray-400 active'>{artist.YouTubeTag}</span>
                                 </div>
                             </a>
                         </div>
                         <div className='flex flex-row w-full justify-stretch items-center font-poppins'>
                             <a target="_blank" href={artist.InstagramUrl}>
-                                <div className='text-xl font-normal font-poppins hover:pl-10'>
-                                    {artist.Instagram} <span className='text-gray-400'>{artist.InstagramTag}</span>
+                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 menucolor'>
+                                    {artist.Instagram} <span className='text-gray-400 active'>{artist.InstagramTag}</span>
                                 </div>
                             </a>
                         </div>
                         <div className='flex flex-row w-full justify-stretch items-center font-poppins'>
                             <a target="_blank" href={artist.FacebookUrl}>
-                                <div className='text-xl font-normal font-poppins hover:pl-10'>
-                                    {artist.Facebook} <span className='text-gray-400'>{artist.FacebookTag}</span>
+                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 menucolor'>
+                                    {artist.Facebook} <span className='text-gray-400 active'>{artist.FacebookTag}</span>
                                 </div>
                             </a>
                         </div>
                         <div className='flex flex-row w-full justify-stretch items-center font-poppins'>
                             <a target="_blank" href={artist.TwitterUrl}>
-                                <div className='text-xl font-normal font-poppins hover:pl-10'>
-                                    {artist.Twitter} <span className='text-gray-400'>{artist.TwitterTag}</span>
+                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 menucolor'>
+                                    {artist.Twitter} <span className='text-gray-400 active'>{artist.TwitterTag}</span>
                                 </div>
                             </a>
                         </div>
                         <div className='flex flex-row w-full justify-stretch items-center font-poppins'>
                             <a target="_blank" href={artist.TikTokUrl}>
-                                <div className='text-xl font-normal font-poppins hover:pl-10'>
-                                    {artist.TikTok} <span className='text-gray-400'>{artist.TikTokTag}</span>
+                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 menucolor'>
+                                    {artist.TikTok} <span className='text-gray-400 active'>{artist.TikTokTag}</span>
                                 </div>
                             </a>
                         </div>

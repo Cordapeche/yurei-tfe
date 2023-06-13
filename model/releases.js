@@ -24,7 +24,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/us/album/rave-single/1612134731",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",        
         "LinkAM": "/link.svg",
 
@@ -55,7 +55,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/in-the-club-slowed-single/1596353931",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",        
         "LinkAM": "/link.svg",
 
@@ -86,7 +86,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/us/album/crystals/1607583458?i=1607583464",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",        
         "LinkAM": "/link.svg",
 
@@ -117,7 +117,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",
         "LinkAM": "/link.svg",
 
@@ -148,7 +148,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",
         "LinkAM": "/link.svg",
 
@@ -210,7 +210,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "link",        
         "LinkAM": "/link.svg",
 
@@ -273,7 +273,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",        
         "LinkAM": "/link.svg",
 
@@ -304,7 +304,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",        
         "LinkAM": "/link.svg",
 
@@ -335,7 +335,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/tokyo-rain/1624975153?i=1624975157",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",        
         "LinkAM": "/link.svg",
 
@@ -366,7 +366,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/us/album/free/1653187140?i=1653187148",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",        
         "LinkAM": "/link.svg",
 
@@ -428,7 +428,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",        
         "LinkAM": "/link.svg",
 
@@ -459,7 +459,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/nothing-is-holy-feat-crypter-mac/1675923871?i=1675923872",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",        
         "LinkAM": "/link.svg",
 
@@ -490,7 +490,7 @@ export const releases = [
         "LinkYT": "/link.svg",
 
         "AppleMusicURL": "https://music.apple.com/be/album/game-slowed-reverb/1604297364?i=1604297365",
-        "AppleMusic": "AppleMusic",
+        "AppleMusic": "Apple Music",
         "IconAM": "-",        
         "LinkAM": "/link.svg",
 

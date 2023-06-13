@@ -55,7 +55,7 @@ export default ({ song }) => (
             <div className='col-span-2 text-white ml-5 mr-5 xl:mr-5 xl:ml-0 xl:col-span-1'>
                 <div className='text-left pt-10'>
                     <h2 className='text-3xl font-semibold uppercase font-noto'>{song.Title}</h2>
-                    <h3 className='pt-2 text-xl font-normal font-poppins'>By <span className='text-gray-400'>
+                    <h3 className='pt-2 text-xl font-normal font-poppins'>By <span className='text-gray-400 menucolor'>
                         <Link href={'/artist/' + song.ArtistId}>
                             {song.Artist}
                         </Link>
@@ -64,36 +64,20 @@ export default ({ song }) => (
                     <div className='text-left pt-10 font-poppins font-normal'>
                         <h2 className='text-3xl font-semibold uppercase font-noto'>Track the song</h2>
 
-                        <a target="_blank" href={song.spotifyURL} className='flex pt-2 flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10 transition duration-300 ease-in-out'>
-                            <h3 className='text-xl font-normal mr-5 w-fit'>{song.Spotify}</h3>
-                            <div className='w-full'>
-                                <div className="bg-white w-auto h-1 rounded-lg text-white"></div>
-                            </div>
-
+                        <a target="_blank" href={song.spotifyURL} className='flex pt-2 flex-row w-full justify-stretch items-center cursor-pointer menucolor transition duration-300 ease-in-out'>
+                            <h3 className='text-xl font-normal mr-5 w-fit ease-in-out hover:uppercase duration-100'>{song.Spotify}</h3>  
                         </a>
 
-                        <a target="_blank" href={song.SoundCloudURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
-                            <h3 className='text-xl font-normal mr-5 w-fit'>{song.SoundCloud}</h3>
-                            <div className='w-full'>
-                                <div className="bg-white w-auto h-1 rounded-lg text-white"></div>
-                            </div>
-
+                        <a target="_blank" href={song.SoundCloudURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer menucolor'>
+                            <h3 className='text-xl font-normal mr-5 w-fit ease-in-out hover:uppercase duration-100'>{song.SoundCloud}</h3>
                         </a>
 
-                        <a target="_blank" href={song.YouTubeURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
-                            <h3 className='text-xl font-normal mr-5 w-fit'>{song.YouTube}</h3>
-                            <div className='w-full'>
-                                <div className="bg-white w-auto h-1 rounded-lg text-white"></div>
-                            </div>
-
+                        <a target="_blank" href={song.YouTubeURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer menucolor'>
+                            <h3 className='text-xl font-normal mr-5 w-fit ease-in-out hover:uppercase duration-100'>{song.YouTube}</h3>
                         </a>
 
-                        <a target="_blank" href={song.AppleMusicURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer hover:pl-10'>
-                            <h3 className='text-xl font-normal mr-5 w-fit'>{song.AppleMusic}</h3>
-                            <div className='w-full'>
-                                <div className="bg-white w-auto h-1 rounded-lg text-white"></div>
-                            </div>
-
+                        <a target="_blank" href={song.AppleMusicURL} className='flex flex-row w-full justify-stretch items-center cursor-pointer menucolor'>
+                            <h3 className='text-xl font-normal mr-5 w-fit ease-in-out hover:uppercase duration-100'>{song.AppleMusic}</h3>
                         </a>
 
                     </div>

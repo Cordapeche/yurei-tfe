@@ -611,6 +611,9 @@ body {
 .menucolor:hover {
   color: #00FFA9;
 }
+.menucolors:hover {
+  background-color: #00FFA9;
+}
 .active:hover {
   color: #4400ff;
 }
