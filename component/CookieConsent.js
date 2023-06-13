@@ -61,7 +61,7 @@ const CookieConsent = () => {
               <div className=' flex flex-col items-center text-white'>
                 <h1 className='text-2xl xl:text-5xl uppercase flex text-center pb-5 font-noto font-bold pt-10'>Welcome to YŪREI 劣化!</h1>
                 <div className='m-5'>
-                  <p className='font-poppins font-normal mx-40 text-center pb-5 text-base'>We're excited to have you join our booming phonk music, where the beats are gritty, the samples are vintage, and the energy is undeniable.</p>
+                  <p className='font-poppins font-normal mx-0 md:mx-40 text-center pb-5 text-base'>We're excited to have you join our booming phonk music, where the beats are gritty, the samples are vintage, and the energy is undeniable.</p>
                   {/* <p className='font-poppins font-medium pb-5 text-base'>Here's a handy guide to help you navigate and make the most of your experience on our website:</p>
 
                   <ul className="list-disc font-poppins font-medium uppercase md:mx-20">
