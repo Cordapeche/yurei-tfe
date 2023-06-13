@@ -104,7 +104,7 @@ const CookieConsent = () => {
               </div>
 
               <div className='flex flex-col px-4 mb-5 cursor-pointer'>
-                <button aria-label='understood' onClick={handleHideDiv} className='btns iconcss text-black bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Got it</button>
+                <button aria-label='understood' onClick={handleHideDiv} className='btns iconcssin text-black bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Got it</button>
               </div>
 
             </div>

@@ -27,7 +27,7 @@ function NewsletterSubscription() {
           onChange={handleEmailChange}
           className='bg-black border-solid border-2 p-2  border-white lg:mr-3 lg:mb-0'
         />
-        <button type='submit' value='Subscribe' className='text-black iconcss bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Subscribe</button>
+        <button type='submit' value='Subscribe' className='text-black iconcssin bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Subscribe</button>
       </form>
     </div>
 
