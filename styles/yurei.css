@@ -608,3 +608,13 @@ body {
   }
 }
 
+.menucolor:hover {
+  color: #00FFA9;
+}
+.active:hover {
+  color: #4400ff;
+}
+.iconcss:hover  {
+  background-color: #4400ff;
+  color: white;
+}

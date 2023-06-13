@@ -22,31 +22,31 @@ const Footer = () => {
 
                             <a target="_blank" aria-label="Facebook" href='https://www.facebook.com/yxreiprxd'>
                                 <button aria-label="Facebook">
-                                    <RiFacebookCircleLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
+                                    <RiFacebookCircleLine className='bg-white iconcss hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
                                 </button>
                             </a>
 
                             <a target="_blank" aria-label="Tiktok" href='https://www.tiktok.com/yxreiprxd'>
                                 <button aria-label="Tiktok">
-                                    <BsTiktok className='bg-white hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
+                                    <BsTiktok className='bg-white iconcss hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
                                 </button>
                             </a>
 
                             <a target="_blank" aria-label="Instagram" href='https://www.instagram.com/yxreiprxd'>
                                 <button aria-label="Instagram">
-                                    <BsInstagram className='bg-white hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
+                                    <BsInstagram className='bg-white iconcss hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
                                 </button>
                             </a>
 
                             <a target="_blank" aria-label="Youtube" href='https://www.youtube.com/yxreiprxd'>
                                 <button aria-label="Youtube">
-                                    <RiYoutubeLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
+                                    <RiYoutubeLine className='bg-white iconcss hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
                                 </button>
                             </a>
 
                             <a target="_blank" aria-label="Twitter" href='https://www.twitter.com/yxreiprxd'>
                                 <button aria-label="Twitter">
-                                    <RiTwitterLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
+                                    <RiTwitterLine className='bg-white iconcss hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
                                 </button>
                             </a>
 

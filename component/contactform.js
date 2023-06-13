@@ -59,7 +59,7 @@ function NewsletterSubscription() {
                     placeholder='What can you suggest us'
                 />
 
-                <button type='submit' value='Subscribe' className='text-black bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Submit</button>
+                <button type='submit' value='Subscribe' className='text-black iconcss bg-white hover:bg-gray-300 border-solid border-2 p-2 mt-2'>Submit</button>
             </form>
         </div>
 

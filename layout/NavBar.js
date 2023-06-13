@@ -95,22 +95,22 @@ const NavBar = () => {
                         <div
                             className={`flex-1 w-full h-full justify-self-center pb-3 md:block md:pb-0 md:mt-0 ${isHidden ? '' : 'hidden'}`}>
                             <ul className='bg-black px-4 md:px-8 w-full items-center justify-end md:flex md:space-x-8 md:mt-0 md:text-sm md:font-medium sm:pt-0 font-poppins uppercase menu'>
-                                <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm '>
+                                <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm menucolor'>
 
-                                    <a className={router.pathname == '/' ? 'glitch font-bold text-4xl md:text-lg' : ''} href={'/'} >releases</a>
+                                    <a className={router.pathname == '/' ? 'glitch active font-bold text-4xl md:text-lg' : ''} href={'/'} >releases</a>
                                 </li>
 
-                                <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm'>
-                                    <a className={router.pathname == '/artist' ? 'glitch font-bold text-4xl md:text-lg' : ''} href={'/artist'} >artists</a>
+                                <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm menucolor'>
+                                    <a className={router.pathname == '/artist' ? 'glitch active font-bold text-4xl md:text-lg' : ''} href={'/artist'} >artists</a>
                                 </li>
-                                <li className=' text-center pt-8 md:pt-0 text-3xl md:text-sm'>
-                                    <a className={router.pathname == '/event' ? 'glitch font-bold text-4xl md:text-lg' : ''} href={'/event'} >event</a>
+                                <li className=' text-center pt-8 md:pt-0 text-3xl md:text-sm menucolor'>
+                                    <a className={router.pathname == '/event' ? 'glitch active font-bold text-4xl md:text-lg' : ''} href={'/event'} >event</a>
                                 </li>
-                                <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm'>
-                                    <a className={router.pathname == '/about' ? 'glitch font-bold text-4xl md:text-lg' : ''} href={'/about'} >About</a>
+                                <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm menucolor'>
+                                    <a className={router.pathname == '/about' ? 'glitch active font-bold text-4xl md:text-lg' : ''} href={'/about'} >About</a>
                                 </li>
-                                <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm'>
-                                    <a className={router.pathname == '/contact' ? 'glitch font-bold text-4xl md:text-lg' : ''} href={'/contact'} >contact</a>
+                                <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm menucolor'>
+                                    <a className={router.pathname == '/contact' ? 'glitch active font-bold text-4xl md:text-lg' : ''} href={'/contact'} >contact</a>
                                 </li>
 
                                 <li className='text-center pt-20 md:pt-0 md:hidden'>
@@ -126,31 +126,31 @@ const NavBar = () => {
                                         <div className='grid gap-x-4 grid-cols-5 mb-3 pt-5'>
                                             <a target='_blank' aria-label='Facebook' href='https://www.facebook.com/yxreiprxd'>
                                                 <button aria-label='Facebook'>
-                                                    <RiFacebookCircleLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
+                                                    <RiFacebookCircleLine className='bg-white iconcss hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
                                                 </button>
                                             </a>
 
                                             <a target='_blank' aria-label='Tiktok' href='https://www.tiktok.com/yxreiprxd'>
                                                 <button aria-label='Tiktok'>
-                                                    <BsTiktok className='bg-white hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
+                                                    <BsTiktok className='bg-white iconcss hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
                                                 </button>
                                             </a>
 
                                             <a target='_blank' aria-label='Instagram' href='https://www.instagram.com/yxreiprxd'>
                                                 <button aria-label='Instagram'>
-                                                    <BsInstagram className='bg-white hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
+                                                    <BsInstagram className='bg-white iconcss hover:bg-gray-300 border-0 p-2 rounded-lg text-black' size={50} />
                                                 </button>
                                             </a>
 
                                             <a target='_blank' aria-label='Youtube' href='https://www.youtube.com/yxreiprxd'>
                                                 <button aria-label='Youtube'>
-                                                    <RiYoutubeLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
+                                                    <RiYoutubeLine className='bg-white iconcss hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
                                                 </button>
                                             </a>
 
                                             <a target='_blank' aria-label='Twitter' href='https://www.twitter.com/yxreiprxd'>
                                                 <button aria-label='Twitter'>
-                                                    <RiTwitterLine className='bg-white hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
+                                                    <RiTwitterLine className='bg-white iconcss hover:bg-gray-300 border-0 p-1 rounded-lg text-black' size={50} />
                                                 </button>
                                             </a>
                                         </div>
