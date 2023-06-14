@@ -56,7 +56,7 @@ const CookieConsent = () => {
           <div className='z-50 md:px-8 fixed md:p-5 border-2 border-white bg-black w-11/12 2xl:w-1/2'>
 
               <button onClick={handleHide} className='btns p-2 w-full flex justify-end cursor-pointer'>
-                <CgClose className='text-white iconcss cursor-pointer' size={40} />
+                <CgClose className='text-white active cursor-pointer' size={40} />
               </button>
               <div className=' flex flex-col items-center text-white'>
                 <h1 className='text-2xl xl:text-5xl uppercase flex text-center pb-5 font-noto font-bold pt-10'>Welcome to YŪREI 劣化!</h1>

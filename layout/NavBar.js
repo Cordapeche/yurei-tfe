@@ -24,8 +24,8 @@ const NavBar = () => {
 
     return (
         <>
-            <nav className='bg-black text-white w-full py-5 relative'>
-                <div className='justify-between md:items-center md:flex top-0  z-50'>
+            <nav className='bg-black text-white w-full py-5 relative z-40'>
+                <div className='justify-between md:items-center md:flex top-0  z-30'>
                     <div className='flex items-center px-4 md:px-8 justify-between  py-3 md:block '>
                         <div className='flex items-center'>
                             <span className='text-3xl font-bold font-heading self-center whitespace-nowrap dark:text-white uppercase'>

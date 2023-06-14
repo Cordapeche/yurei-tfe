@@ -16,7 +16,9 @@ export default function About() {
       <div className='grid grid-cols-4 md:grid-cols-4 grid-flow-row-danse w-full overflow-hidden h-full'>
         <div className="overflow-hidden  aspect-video cursor-pointer relative group aspect-w-3 aspect-h-4 xl:aspect-w-7 xl:aspect-h-3 col-span-4">
 
-          <iframe src="https://www.youtube-nocookie.com/embed/fC1HF29n9UA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/aYDrlmKhqgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          {/* <iframe src="https://youtu.be/ffeaJMsAxE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
         </div>
         <div className='col-span-1 text-white hidden md:block'></div>
         <div className='pt-10 col-span-4 xl:col-span-1 text-white ml-5 mr-5 xl:mr-5 xl:ml-0'>
