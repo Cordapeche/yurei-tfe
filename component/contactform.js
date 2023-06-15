@@ -53,7 +53,7 @@ function ContactForm() {
                     placeholder='Name'
                     value={name}
                     onChange={handleNameChanges}
-                    className='bg-black border-solid w-full border-2 p-2  border-white mt-2 lg:mr-3 lg:mb-0'
+                    className='bg-black border-solid w-full border-2 p-2  border-white mt-2 lg:mr-3 lg:mb-0 focus:outline-none thefocus'
                 />
                 <input
                     data-validetta="required,email" 
@@ -63,7 +63,7 @@ function ContactForm() {
                     placeholder='Email'
                     value={email}
                     onChange={handleEmailChanges}
-                    className='bg-black border-solid w-full border-2 p-2  border-white mt-2 lg:mr-3 lg:mb-0'
+                    className='bg-black border-solid w-full border-2 p-2  border-white mt-2 lg:mr-3 lg:mb-0 focus:outline-none thefocus'
                 />
                 <input
                     data-validetta="required,equalTo[mail],email" 
@@ -73,7 +73,7 @@ function ContactForm() {
                     placeholder='Confirm email'
                     value={confirmemail}
                     onChange={handleConfirmEmailChanges}
-                    className='bg-black border-solid w-full border-2 p-2  border-white mt-2 lg:mr-3 lg:mb-0'
+                    className='bg-black border-solid w-full border-2 p-2  border-white mt-2 lg:mr-3 lg:mb-0 focus:outline-none thefocus'
                 />
                 <textarea
                     rows='10'
@@ -81,7 +81,7 @@ function ContactForm() {
                     id="message"
                     value={message}
                     onChange={handleMessageChanges}
-                    className='bg-black border-solid w-full border-2 p-2  border-white mt-2'
+                    className='bg-black border-solid w-full border-2 p-2  border-white mt-2 focus:outline-none thefocus'
                     placeholder='What can you suggest us'
                 />
 
