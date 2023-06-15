@@ -34,8 +34,7 @@ function ContactForm() {
 
         // Clear the input field after submission
         setEmail('');
-        setName('');
-        setEmail('');        
+        setName('');       
         setConfirmemail('');
     };
 
