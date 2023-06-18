@@ -100,7 +100,7 @@ export default ({ artist }) => (
             </div>
         </div>
 
-        <div className='pt-60 grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
+        <div className='pt-40 grid grid-cols-2 md:grid-cols-4 w-full overflow-hidden h-full text-center'>
             <div className='col-span-1 hidden xl:block'>
 
             </div>
