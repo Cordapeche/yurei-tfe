@@ -8,7 +8,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="shortcut icon" href="/logo.svg" />
-        <script src='../js/script.js'></script>
+        <script src='../js/script.js'></script>    
       </Head>
 
       <body>

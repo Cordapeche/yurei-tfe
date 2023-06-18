@@ -184,11 +184,11 @@ body {
  }
   85% {
     transform: translateX(5px);
-    color: #fffb00;
+    color: #00FFA9;
  }
   90% {
     transform: translateX(1px);
-    color: #c300ff;
+    color: #8100FF;
  }
   95% {
     transform: translateX(-2px);
@@ -211,11 +211,11 @@ body {
  }
   85% {
     transform: translateX(-1px);
-    color: #ff0000;
+    color: #00FFA9;
  }
   90% {
     transform: translateX(-3px);
-    color: #0026ff;
+    color: #8100FF;
  }
   95% {
     transform: translateX(0px);
@@ -238,11 +238,11 @@ body {
  }
   85% {
     transform: translateX(1px);
-    color: #00ff4c;
+    color: #00FFA9;
  }
   90% {
     transform: translateX(3px);
-    color: #4400ff;
+    color: #8100FF;
  }
   95% {
     transform: translateX(3px);
@@ -265,11 +265,11 @@ body {
  }
   85% {
     transform: translateX(-4px);
-    color: #fffb00;
+    color: #00FFA9;
  }
   90% {
     transform: translateX(-3px);
-    color: #ff00ff;
+    color: #8100FF;
  }
   95% {
     transform: translateX(4px);
@@ -292,11 +292,11 @@ body {
  }
   85% {
     transform: translateX(4px);
-    color: #ff0000;
+    color: #00FFA9;
  }
   90% {
     transform: translateX(-1px);
-    color: #0400ff;
+    color: #8100FF;
  }
   95% {
     transform: translateX(5px);
@@ -319,11 +319,11 @@ body {
  }
   85% {
     transform: translateX(-1px);
-    color: #00ff4c;
+    color: #00FFA9;
  }
   90% {
     transform: translateX(3px);
-    color: #4400ff;
+    color: #8100FF;
  }
   95% {
     transform: translateX(-2px);
@@ -346,11 +346,11 @@ body {
  }
   85% {
     transform: translateX(-1px);
-    color: #00ff4c;
+    color: #00FFA9;
  }
   90% {
     transform: translateX(4px);
-    color: #4400ff;
+    color: #8100FF;
  }
   95% {
     transform: translateX(-3px);
@@ -373,7 +373,7 @@ body {
  }
   85% {
     transform: translateX(-4px);
-    color: #00ff4c;
+    color: #00FFA9;
  }
   90% {
     transform: translateX(-2px);
@@ -400,7 +400,7 @@ body {
  }
   85% {
     transform: translateX(-2px);
-    color: #00ff4c;
+    color: #00FFA9;
  }
   90% {
     transform: translateX(-4px);
@@ -427,7 +427,7 @@ body {
  }
   85% {
     transform: translateX(2px);
-    color: #00ff4c;
+    color: #00FFA9;
  }
   90% {
     transform: translateX(2px);

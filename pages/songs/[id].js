@@ -13,11 +13,11 @@ export const getStaticProps = async ({ params }) => {
     };
 };
   
-// let min = 1;
-// let max = 3;
-// const CatNumber = Math.floor(Math.random() * (max - min + 1)) + min
+let min = 1;
+let max = 5;
+const CatNumber = Math.floor(Math.random() * (max - min + 1)) + min
 
-const CatNumber = 1
+// const CatNumber = 2
 // console.log(CatNumber);
 
 export const getStaticPaths = async () => {
@@ -57,15 +57,17 @@ export default ({ song }) => (
             <div className='col-span-2 text-white ml-5 mr-5 xl:mr-5 xl:ml-0 xl:col-span-1'>
                 <div className='text-left pt-10'>
                     <h2 className='text-3xl font-semibold uppercase font-noto'>{song.Title}</h2>
-                    <h3 className='pt-2 text-xl font-normal font-poppins'>By <span className='text-gray-400 menucolor'>
+                    <h3 className='pt-4 text-xl font-normal font-poppins '>By <span className='text-gray-400 menucolor'>
                         <Link href={'/artist/' + song.ArtistId}>
                             {song.Artist}
                         </Link>
                     </span></h3>
-                    <p className='pt-2 text-sm font-poppins font-normal'>{song.Description}</p>
+                    <p className='text-base font-normal font-poppins pt-5 text-gray-400'><span className='uppercase text-white'>Album:</span> {song.Album}</p>
+                    <p className='text-base font-normal font-poppins text-gray-400'><span className='uppercase text-white'>Released:</span> {song.Released}</p>
+                    <p className='text-base font-normal font-poppins text-gray-400'><span className='uppercase text-white'>Genres:</span> {song.Genres}</p>
                     <div className='text-left pt-10 font-poppins font-normal'>
-                        <h2 className='text-3xl font-semibold uppercase font-noto'>Track the song</h2>
 
+                        <h2 className='text-3xl font-semibold uppercase font-noto'>Track the song</h2>
                         <a target="_blank" href={song.spotifyURL} className='flex pt-2 flex-row w-full justify-stretch items-center cursor-pointer menucolor transition duration-300 ease-in-out'>
                             <h3 className='text-xl font-normal mr-5 w-fit ease-in-out hover:uppercase duration-100'>{song.Spotify}</h3>  
                         </a>
@@ -93,7 +95,7 @@ export default ({ song }) => (
             </div>
             <div className='col-span-2 text-white text-left xl:col-span-1 ml-5 mr-5 xl:mr-5'>
 
-                <h2 className='text-3xl font-semibold uppercase py-5 font-noto'>daily selection</h2>
+                <h2 className='text-3xl font-semibold uppercase py-5 font-noto'>You might also like</h2>
             </div>
         </div>
 
