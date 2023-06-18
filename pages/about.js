@@ -16,7 +16,7 @@ export default function About() {
       <div className='grid grid-cols-4 md:grid-cols-4 grid-flow-row-danse w-full overflow-hidden h-full'>
         <div className="overflow-hidden  aspect-video cursor-pointer relative group aspect-w-3 aspect-h-4 xl:aspect-w-7 xl:aspect-h-3 col-span-4">
 
-        <iframe src="https://www.youtube.com/embed/jGLGFlYQB9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/jGLGFlYQB9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
           {/* <iframe src="https://youtu.be/ffeaJMsAxE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
         </div>
@@ -24,20 +24,16 @@ export default function About() {
         <div className='pt-10 col-span-4 xl:col-span-1 text-white ml-5 mr-5 xl:mr-5 xl:ml-0'>
           <h2 className='text-3xl uppercase font-noto font-semibold pb-2'>who are we</h2>
           <p className='text-sm font-normal font-poppins'>
-            At our label, we celebrate the fusion of old-school sounds with a modern twist, creating a sonic experience that transports listeners to another era while keeping them firmly rooted in the present. We are passionate about pushing boundaries, embracing experimentation, and nurturing raw talent. With us, you'll find a platform to express your musical vision and reach audiences who crave the essence of true phonk.</p>
+            On our label, we Love blending vintage sounds with contemporary influence to produce sound experiences that take listeners back in time while firmly rooting them in the present.
+            Yurei team of experts are here to guide you every step of the way from production through promotion, we will help you hone your craft. Through collaborations, feedback sessions, and networking opportunities, together we will plan a path that will take your career to the next level. You'll discover a platform with us to express your musical vision and meet an audience hungry for the essence of authentic phonk.<br></br><br></br>
+            As a member of our label, you become part of a family of like-minded artists who share your passion for phonk.  Our community is diverse, encouraging innovation and cooperation. We'll push the frontiers of phonk music together, break new ground, and leave a lasting impression on the stage.<br></br>
+            So prepare to generate new sound, create outstanding records and captivate listeners with your signature phonk style. We look forward to see your talent bloom and earn a name in the industry.
+            Welcome to Yurei! Let's go on this musical journey together and transform the phonk scene. </p>
 
-          <p className='text-sm font-normal font-poppins pt-2'>Our dedicated team of industry professionals is here to support you every step of the way. From production to promotion, we are committed to helping you refine your craft and amplify your voice. Collaborations, feedback sessions, and networking opportunities are all part of our thriving ecosystem. Together, we'll carve out a path that propels your career to new heights.</p>
-
-          <p className='text-sm font-normal font-poppins pt-2'>As a member of our label, you'll be joining a family of like-minded artists who share your passion for phonk. Our community is vibrant, diverse, and supportive, fostering an environment of creativity and collaboration. Together, we'll push the boundaries of phonk music, break new ground, and leave a lasting impact on the scene.</p>
-
-          <p className='text-sm font-normal font-poppins pt-2'>So, get ready to make some serious noise, create unforgettable tracks, and captivate audiences with your distinct phonk style. The Phonk Palace is your home, and we can't wait to witness your talent blossom and make waves in the industry.</p>
-
-          <p className='text-sm font-normal font-poppins pt-2'>Once again, welcome to the Phonk Palace! Let's embark on this incredible musical journey together and revolutionize the phonk scene.
-          </p>
           {/* <p className='text-sm font-normal font-poppins pt-2'>Yours in rhythm and groove,
           </p> */}
           <p className='text-sm font-normal font-poppins pt-2'>
-            By lovers for lovers, YŪREI 劣化
+            By lovers for lovers, <span className='menucolor'>YŪREI 劣化</span>
           </p>
         </div>
       </div>

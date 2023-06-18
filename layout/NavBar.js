@@ -97,20 +97,20 @@ const NavBar = () => {
                             <ul className='bg-black px-4 md:px-8 w-full items-center justify-end md:flex md:space-x-8 md:mt-0 md:text-sm md:font-medium sm:pt-0 font-poppins uppercase menu'>
                                 <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm menucolor'>
 
-                                    <a className={router.pathname == '/' ? 'glitch active font-bold text-4xl md:text-lg' : ''} href={'/'} >releases</a>
+                                    <a className={router.pathname == '/' ? 'glitch font-bold text-4xl md:text-lg' : ''} href={'/'} >releases</a>
                                 </li>
 
                                 <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm menucolor'>
-                                    <a className={router.pathname == '/artist' ? 'glitch active font-bold text-4xl md:text-lg' : ''} href={'/artist'} >artists</a>
+                                    <a className={router.pathname == '/artist' ? 'glitch font-bold text-4xl md:text-lg' : ''} href={'/artist'} >artists</a>
                                 </li>
                                 <li className=' text-center pt-8 md:pt-0 text-3xl md:text-sm menucolor'>
-                                    <a className={router.pathname == '/event' ? 'glitch active font-bold text-4xl md:text-lg' : ''} href={'/event'} >event</a>
+                                    <a className={router.pathname == '/event' ? 'glitch font-bold text-4xl md:text-lg' : ''} href={'/event'} >event</a>
                                 </li>
                                 <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm menucolor'>
-                                    <a className={router.pathname == '/about' ? 'glitch active font-bold text-4xl md:text-lg' : ''} href={'/about'} >About</a>
+                                    <a className={router.pathname == '/about' ? 'glitch font-bold text-4xl md:text-lg' : ''} href={'/about'} >About</a>
                                 </li>
                                 <li className='text-center pt-8 md:pt-0 text-3xl md:text-sm menucolor'>
-                                    <a className={router.pathname == '/contact' ? 'glitch active font-bold text-4xl md:text-lg' : ''} href={'/contact'} >contact</a>
+                                    <a className={router.pathname == '/contact' ? 'glitch font-bold text-4xl md:text-lg' : ''} href={'/contact'} >contact</a>
                                 </li>
 
                                 <li className='text-center pt-20 md:pt-0 md:hidden'>

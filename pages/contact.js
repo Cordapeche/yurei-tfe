@@ -29,18 +29,14 @@ export default function Contact() {
         <div className='col-span-1 text-white hidden md:block'></div>
         <div className='col-span-4 xl:col-span-1 text-white ml-5 mr-5'>
           <h2 className='pt-10 text-3xl font-semibold uppercase font-noto '>REASON TO CONTACT US</h2>
-          <p className='text-sm font-normal font-poppins pt-2'>
-            You are an artist looking for a submissions? A collaboration opportunities? Maybe looking for a distribution and/or a promotion?
-            </p>
-          <p className='text-sm font-normal font-poppins pt-2'>
-            Whatever you are looking for, you are soon getting your answers. Complete this for and submit it to us and we will answer to you respectfully.
-            </p>
+          <p className='text-sm font-normal font-poppins pt-2'>You are an artist seeking submissions, right? a chance for collaboration? Possibly trying to obtain sales or/and advertisement?
+            Fill out this form and send it to us.</p>          
           <h2 className='text-3xl pt-10 font-semibold uppercase font-noto '>GET IN TOUCH</h2>          <Contactform />
-          <h2 className='text-3xl pt-10 font-semibold uppercase font-noto '>Contact information</h2> 
+          <h2 className='text-3xl pt-10 font-semibold uppercase font-noto '>Contact information</h2>
           <h3 className='pt-2 text-xl font-semibold'>Email: <span className='text-sm font-normal font-poppins'>info@yurei.be</span> </h3>
           <h3 className='pt-2 text-xl font-semibold'>Phone: <span className='text-sm font-normal font-poppins'>+32488 00 00 00</span> </h3>
         </div>
-        
+
       </div>
     </>
   )

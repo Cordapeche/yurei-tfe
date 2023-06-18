@@ -62,35 +62,35 @@ export default ({ artist }) => (
 
                         <div className='flex flex-row w-full justify-stretch items-center font-poppins'>
                             <a target="_blank" href={artist.YouTubeUrl}>
-                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 menucolor'>
+                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 active'>
                                     {artist.YouTube} <span className='text-gray-400 active'>{artist.YouTubeTag}</span>
                                 </div>
                             </a>
                         </div>
                         <div className='flex flex-row w-full justify-stretch items-center font-poppins'>
                             <a target="_blank" href={artist.InstagramUrl}>
-                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 menucolor'>
+                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 active'>
                                     {artist.Instagram} <span className='text-gray-400 active'>{artist.InstagramTag}</span>
                                 </div>
                             </a>
                         </div>
                         <div className='flex flex-row w-full justify-stretch items-center font-poppins'>
                             <a target="_blank" href={artist.FacebookUrl}>
-                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 menucolor'>
+                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 active'>
                                     {artist.Facebook} <span className='text-gray-400 active'>{artist.FacebookTag}</span>
                                 </div>
                             </a>
                         </div>
                         <div className='flex flex-row w-full justify-stretch items-center font-poppins'>
                             <a target="_blank" href={artist.TwitterUrl}>
-                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 menucolor'>
+                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 active'>
                                     {artist.Twitter} <span className='text-gray-400 active'>{artist.TwitterTag}</span>
                                 </div>
                             </a>
                         </div>
                         <div className='flex flex-row w-full justify-stretch items-center font-poppins'>
                             <a target="_blank" href={artist.TikTokUrl}>
-                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 menucolor'>
+                                <div className='text-xl font-normal font-poppins ease-in-out hover:uppercase duration-100 active'>
                                     {artist.TikTok} <span className='text-gray-400 active'>{artist.TikTokTag}</span>
                                 </div>
                             </a>
@@ -106,7 +106,7 @@ export default ({ artist }) => (
             </div>
             <div className='col-span-2 text-white text-left xl:col-span-1 ml-5 mr-5 xl:mr-5'>
 
-                <h2 className='text-3xl font-semibold uppercase pt-10 py-5 font-noto'>Recently released</h2>
+                <h2 className='text-3xl font-semibold uppercase pt-10 py-5 font-noto'>all Releases</h2>
             </div>
         </div>
 
