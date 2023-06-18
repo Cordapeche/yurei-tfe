@@ -625,3 +625,6 @@ body {
   background-color: #00FFA9;
   color: black;
 }
+.bordercolor:focus {
+  border: solid 2px #00FFA9;
+}

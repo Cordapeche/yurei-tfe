@@ -41,21 +41,21 @@ function NewsletterSubscription() {
                     placeholder='Name'
                     value={name}
                     onChange={handleNameChanges}
-                    className='bg-black border-solid w-full border-2 p-2  border-white mt-2 lg:mr-3 lg:mb-0'
+                    className='bg-black border-solid w-full border-2 p-2 focus:outline-none bordercolor border-white mt-2 lg:mr-3 lg:mb-0'
                 />
                 <input
                     type='email'
                     placeholder='Email'
                     value={email}
                     onChange={handleEmailChanges}
-                    className='bg-black border-solid w-full border-2 p-2  border-white mt-2 lg:mr-3 lg:mb-0'
+                    className='bg-black border-solid w-full border-2 p-2 focus:outline-none bordercolor border-white mt-2 lg:mr-3 lg:mb-0'
                 />
                 <textarea
-                    rows='4'
+                    rows='10'
                     type='email'
                     value={message}
                     onChange={handleMessageChanges}
-                    className='bg-black border-solid w-full border-2 p-2  border-white mt-2'
+                    className='bg-black border-solid w-full focus:outline-none bordercolor border-2 p-2  border-white mt-2'
                     placeholder='What can you suggest us'
                 />
 
