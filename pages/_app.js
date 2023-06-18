@@ -1,13 +1,14 @@
 import Layout from '../layout/layout';
 import '../styles/globals.css';
 import '/styles/yurei.css';
+import { gsap } from 'gsap';
 
- function App({ Component }) {
-
+ function App({ Component, pageProps }) {
+  let timeline = gsap.timeline();
   return (
     <div className='App'>
-      <Layout>
-      <Component/>
+      <Layout timeline={timeline}>
+      <Component timeline={timeline} {...pageProps} />
     </Layout>
     </div>
   )

@@ -58,37 +58,37 @@ export default ({ even }) => (
                     <h1 className='text-3xl font-semibold uppercase pt-10 font-noto pb-2'>Phonker</h1>
                     <div className='font-poppins font-normal text-gray-400'>
                         <Link href={'/artist/' + even.Id1}>
-                            <p className='cursor-pointer menucolor'>{even.id1}</p>
+                            <p className='cursor-pointer hover:pl-10'>{even.id1}</p>
                         </Link>
                         <Link href={'/artist/' + even.Id2}>
-                            <p className='cursor-pointer menucolor'>{even.id2}</p>
+                            <p className='cursor-pointer hover:pl-10'>{even.id2}</p>
                         </Link>
                         <Link href={'/artist/' + even.Id3}>
-                            <p className='cursor-pointer menucolor'>{even.id3}</p>
+                            <p className='cursor-pointer hover:pl-10'>{even.id3}</p>
                         </Link>
                         <Link href={'/artist/' + even.Id4}>
-                            <p className='cursor-pointer menucolor'>{even.id4}</p>
+                            <p className='cursor-pointer hover:pl-10'>{even.id4}</p>
                         </Link>
                         <Link href={'/artist/' + even.Id5}>
-                            <p className='cursor-pointer menucolor'>{even.id5}</p>
+                            <p className='cursor-pointer hover:pl-10'>{even.id5}</p>
                         </Link>
                         <Link href={'/artist/' + even.Id6}>
-                            <p className='cursor-pointer menucolor'>{even.id6}</p>
+                            <p className='cursor-pointer hover:pl-10'>{even.id6}</p>
                         </Link>
                         <Link href={'/artist/' + even.Id7}>
-                            <p className='cursor-pointer menucolor'>{even.id7}</p>
+                            <p className='cursor-pointer hover:pl-10'>{even.id7}</p>
                         </Link>
                         <Link href={'/artist/' + even.Id8}>
-                            <p className='cursor-pointer menucolor'>{even.id8}</p>
+                            <p className='cursor-pointer hover:pl-10'>{even.id8}</p>
                         </Link>
                         <Link href={'/artist/' + even.Id9}>
-                            <p className='cursor-pointer menucolor'>{even.id9}</p>
+                            <p className='cursor-pointer hover:pl-10'>{even.id9}</p>
                         </Link>
                         <Link href={'/artist/' + even.Id10}>
-                            <p className='cursor-pointer menucolor'>{even.id10}</p>
+                            <p className='cursor-pointer hover:pl-10'>{even.id10}</p>
                         </Link>
                         <Link href={'/artist/' + even.Id11}>
-                            <p className='cursor-pointer menucolor'>{even.id11}</p>
+                            <p className='cursor-pointer hover:pl-10'>{even.id11}</p>
                         </Link>
                     </div>
                     <h1 className='text-3xl font-semibold uppercase pt-10 font-noto pb-2'>Where</h1>

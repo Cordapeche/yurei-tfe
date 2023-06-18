@@ -7,11 +7,8 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="shortcut icon" href="/logo.svg" />        
-        <script src='../js/jquery-latest.min.js'></script>
+        <link rel="shortcut icon" href="/logo.svg" />
         <script src='../js/script.js'></script>
-        <script src='../js/validetta.js'></script>
-        <script src='../js/myvalideta.js'></script>
       </Head>
 
       <body>
