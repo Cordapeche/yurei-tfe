@@ -13,9 +13,11 @@ export const getStaticProps = async ({ params }) => {
     };
 };
   
-let min = 1;
-let max = 3;
-const CatNumber = Math.floor(Math.random() * (max - min + 1)) + min
+// let min = 1;
+// let max = 3;
+// const CatNumber = Math.floor(Math.random() * (max - min + 1)) + min
+
+const CatNumber = 1
 // console.log(CatNumber);
 
 export const getStaticPaths = async () => {
@@ -91,7 +93,7 @@ export default ({ song }) => (
             </div>
             <div className='col-span-2 text-white text-left xl:col-span-1 ml-5 mr-5 xl:mr-5'>
 
-                <h2 className='text-3xl font-semibold uppercase py-5 font-noto'>You might also like</h2>
+                <h2 className='text-3xl font-semibold uppercase py-5 font-noto'>daily selection</h2>
             </div>
         </div>
 

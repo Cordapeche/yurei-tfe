@@ -8,7 +8,7 @@ export const releases = [
         "Picture": "/assets/cover/ravecover.webp",
         "Description": "If there’s any artist who can say they had a big year, it’s Dxrk ダーク. Starting 2022 as an unknown entity, the Algerian phonk producer ended the year as the most-streamed artist from the Middle East and North Africa globally. ",        
 
-        "spotifyURL": "https://open.spotify.com/track/1olz3HctPa2yXmSniaCNLN?si=6462ff470d2a4905",
+        "spotifyURL": "https://open.spotify.com/track/01kfSdF9zfcDLri5sSWEoL?si=85f931a8dc214d83",
         "Spotify": "Spotify",
         "IconSfy": "-",        
         "LinkSfy": "/link.svg",
@@ -506,6 +506,99 @@ export const releases = [
         "Description": "May 10, 2023 © 2023 kaizx",        
 
         "spotifyURL": "https://open.spotify.com/track/4c6aRAArhy8RTsoehU7Wts?si=476200ef009c4c28",
+        "Spotify": "Spotify",
+        "IconSfy": "-",        
+        "LinkSfy": "/link.svg",
+        
+        "SoundCloudURL": "",
+        "SoundCloud": "",
+        "IconSC": "",        
+        "LinkSC": "/links.svg",
+
+        "YouTubeURL": "",
+        "YouTube": "",
+        "IconYT": "",        
+        "LinkYT": "/links.svg",
+
+        "AppleMusicURL": "",
+        "AppleMusic": "",
+        "IconAM": "",        
+        "LinkAM": "/links.svg",
+
+        "SongType": "",
+    },
+    {
+        "id": 18,
+        "Title": "DO OR DIE",
+        "Artist": "Dxrk ダーク",
+        "ArtistId": 1,
+        "CatId": 3,
+        "Picture": "/assets/cover/doordiecover.webp",
+        "Description": "May 10, 2023 © 2023 kaizx",        
+
+        "spotifyURL": "https://open.spotify.com/track/02SKrZwDBb7qugvNZF5Xzr?si=c0d3d455ca704968",
+        "Spotify": "Spotify",
+        "IconSfy": "-",        
+        "LinkSfy": "/link.svg",
+        
+        "SoundCloudURL": "",
+        "SoundCloud": "",
+        "IconSC": "",        
+        "LinkSC": "/links.svg",
+
+        "YouTubeURL": "",
+        "YouTube": "",
+        "IconYT": "",        
+        "LinkYT": "/links.svg",
+
+        "AppleMusicURL": "",
+        "AppleMusic": "",
+        "IconAM": "",        
+        "LinkAM": "/links.svg",
+
+        "SongType": "",
+    }, 
+    {
+        "id": 19,
+        "Title": "UNHOLY",
+        "Artist": "Dxrk ダーク",
+        "ArtistId": 1,
+        "CatId": 3,
+        "Picture": "/assets/cover/unholycover.webp",
+        "Description": "May 10, 2023 © 2023 kaizx",        
+
+        "spotifyURL": "https://open.spotify.com/album/6wVX7rvKQgBNS5QvRJIQ5I?si=4MYhvjrwSpi_vDUzo829Iw",
+        "Spotify": "Spotify",
+        "IconSfy": "-",        
+        "LinkSfy": "/link.svg",
+        
+        "SoundCloudURL": "",
+        "SoundCloud": "",
+        "IconSC": "",        
+        "LinkSC": "/links.svg",
+
+        "YouTubeURL": "",
+        "YouTube": "",
+        "IconYT": "",        
+        "LinkYT": "/links.svg",
+
+        "AppleMusicURL": "",
+        "AppleMusic": "",
+        "IconAM": "",        
+        "LinkAM": "/links.svg",
+
+        "SongType": "",
+    },
+    {
+        "id": 20,
+        "Title": "Roller Coaster",
+        "Artist": "Mishashi Sensei",
+        "ArtistId": 2,
+        "CatId": 3,
+        "Picture": "/assets/cover/rollercoastercover.webp",
+        "Description": "May 10, 2023 © 2023 kaizx",        
+
+        "spotifyURL": "https://open.spotify.com/album/4peZf7CqAVAQHbFq9fnIkw?si=JfNZDb7LTiy7OjNc7zfdzQ",
         "Spotify": "Spotify",
         "IconSfy": "-",        
         "LinkSfy": "/link.svg",
