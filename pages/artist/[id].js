@@ -54,9 +54,9 @@ export default ({ artist }) => (
             <div className='col-span-2 text-white ml-5 mr-5 xl:mr-5 xl:ml-0 xl:col-span-1'>
                 <div className='text-left pt-10'>
                     <a target="_blank" href={artist.Www}>
-                        <h2 className='text-3xl font-semibold font-noto'>{artist.Name}</h2>
+                        <h2 className='text-3xl font-semibold cursor-pointer active font-noto'>{artist.Name}</h2>
                     </a>
-                    <p className='text-xl font-normal font-poppins'>{artist.Bio}</p>
+                    <p className='text-xl font-normal font-poppins pt-10'>{artist.Bio}</p>
                     <div className='text-left pt-10'>
                         <h2 className='text-3xl font-semibold uppercase font-noto pb-2'>Find them there</h2>
 
