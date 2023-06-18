@@ -23,7 +23,7 @@ export default ({ eventlist }) => (
 
     <div className='min-h-screen bg-black'>
 
-      <div className='grid grid-cols-2 md:grid-cols-2 grid-flow-row-danse w-full overflow-hidden h-full'>
+      <div className='grid grid-cols-1 md:grid-cols-2 grid-flow-row-danse w-full overflow-hidden h-full'>
         {events.sort(function (a, b) { return b.id - a.id }).map(even => (
           <Link href={'/events/' + even.id} key={even.id}>
 
